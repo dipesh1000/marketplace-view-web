@@ -1,0 +1,222 @@
+/* gig list css */
+.temp-width {
+	width: 250px;
+}
+.gig-list {
+	padding: 25px 0;
+}
+
+.section-title {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	padding-bottom: 25px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.section-title h2 {
+	font-size: 26px;
+	line-height: 35px;
+}
+
+.section-title h2 a {
+	font-size: 26px;
+	font-weight: 700;
+	color: #4a73e8;
+}
+
+.section-title a {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.section-title a i {
+	font-size: 13px;
+	padding-left: 3px;
+}
+
+.gig-list .title a i {
+	font-size: 13px;
+	padding-left: 3px;
+}
+
+.gig-list .section-wrapper ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	margin: 0 -15px;
+}
+
+.gig-list .section-wrapper ul li {
+	width: 25%;
+	padding: 0 15px;
+}
+.gig-list.row-list .section-wrapper .gig-box {
+	margin-bottom: 30px;
+}
+.gig-list .section-wrapper .gig-box {
+	background-color: #fff;
+	position: relative;
+	border: 1px solid #e4e5e7;
+}
+.gig-list .section-wrapper .gig-box:hover .gig-info h3 a {
+	color: #02c2a9;
+}
+.gig-list .section-wrapper .gig-box .image {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.gig-list .section-wrapper .gig-box .image img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.gig-list .section-wrapper .gig-box .seller-info {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+.gig-list .section-wrapper .gig-box .seller-info .seller-icon {
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+.gig-list .section-wrapper .gig-box .seller-info .seller-icon img {
+	width: 100%;
+	height: 100%;
+}
+.gig-list .section-wrapper .gig-box .seller-info .seller-name {
+	color: #222325;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.gig-list .section-wrapper .gig-box .seller-info .seller-name .seller-level {
+	display: block;
+	font-size: 13px;
+	list-style: 18px;
+	color: #b5b6ba;
+	font-weight: 500;
+}
+.gig-list .section-wrapper .gig-box .seller-info .seller-name a {
+	color: #222325;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.gig-list .section-wrapper .gig-box .gig-info h3 {
+	padding: 0px 10px;
+	font-size: 17px;
+	font-weight: 400 !important;
+	margin-bottom: 10px !important;
+	line-height: 23px;
+	text-align: left;
+}
+.gig-list .section-wrapper .gig-box .gig-info h3 a {
+	color: #222325;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	min-height: 46px;
+}
+.gig-list .section-wrapper .gig-box .gig-info .rating-wrapper {
+	display: block;
+	color: #b5b6ba;
+	margin-bottom: 10px;
+	padding: 0px 10px;
+}
+.gig-list .section-wrapper .gig-box .gig-info .rating-wrapper .gig-rating {
+	color: #ffbe5b;
+	padding-right: 5px;
+	font-weight: 500;
+}
+
+.gig-list .section-wrapper .gig-box .gig-info .gig-ext {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-top: 1px solid #e4e5e7;
+	padding: 10px 10px;
+}
+.gig-list .section-wrapper .gig-box .gig-info .gig-ext button {
+	background: none;
+	border: none;
+	padding: 0px 5px;
+	color: #b5b6ba;
+}
+.gig-list .section-wrapper .gig-box .gig-info .gig-ext button {
+	font-size: 17px;
+}
+.gig-list .section-wrapper .gig-box .gig-info .gig-ext .gig-price a {
+	color: #62646a;
+	font-size: 17px;
+	font-weight: 400;
+}
+.gig-list .section-wrapper .gig-box .gig-info .gig-ext .gig-price span {
+	font-size: 14px;
+	padding-right: 5px;
+}
+@media only screen and (max-width: 1236px) {
+	.gig-list .section-wrapper ul li {
+		width: 25%;
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.gig-list .section-wrapper ul li {
+		width: 33.33%;
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 769px) {
+	.gig-list .section-wrapper ul li {
+		width: 50%;
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.gig-list .section-wrapper ul li {
+		width: 100%;
+		padding: 0 15px;
+	}
+}

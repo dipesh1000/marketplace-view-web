@@ -1,0 +1,129 @@
+.parent-form {
+	.FormInnerContainer {
+		padding: 20px 35px;
+	}
+	.FormInnerContainer h2 {
+		display: block;
+		padding: 15px 0;
+		font-weight: 900;
+		color: #555555;
+	}
+	.FormInnerContainer p {
+		font-size: 15px;
+		color: #999;
+		line-height: 23px;
+	}
+	.FormInnerContainer i {
+		display: block;
+		color: #999;
+		font-size: 13px;
+	}
+	.subHeading {
+		padding-top: 30px;
+	}
+	.formSubmit {
+		background-color: #1dbf73 !important;
+		border: 1px solid #04bb66 !important;
+		color: #fff !important;
+		font-weight: 600 !important;
+		outline: none !important;
+		padding: 0.5em 0.3em !important;
+		width: 170px !important;
+		border-radius: 3px !important;
+		display: block !important;
+		margin-left: auto;
+	}
+
+	.socialBrand {
+		display: flex;
+		align-items: center;
+	}
+	.socialBrand p {
+		padding-right: 40px;
+		font-size: 20px;
+		font-weight: 400;
+		margin-bottom: 2px;
+		color: #404145;
+	}
+	.socialBrand small {
+		color: #04bb66;
+	}
+	.socialBrand img {
+		margin-right: 12px;
+	}
+	.connectButton {
+		background-color: transparent;
+		border: 1px solid #dddddd;
+		color: #777;
+		font-weight: 400;
+		outline: none;
+		padding: 0.5em 0.3em;
+		width: 170px;
+		border-radius: 3px;
+		display: block;
+		margin-left: auto;
+	}
+	.connectButton:hover {
+		border: 1px solid #b3b3b3;
+	}
+	.active {
+		background-color: #edfaf0 !important;
+	}
+	.formLevels {
+		color: #404145;
+	}
+	.buttonEdu {
+		display: block;
+		text-align: right;
+	}
+
+	.Accounts_icon {
+		color: #999;
+		font-size: 1.9em;
+		margin-right: 15px;
+	}
+	.formAccountButtons {
+		background-color: #ddd !important;
+		border: 1px solid #dddddd !important;
+		color: #777 !important;
+		font-weight: 600 !important;
+		outline: none !important;
+		padding: 0.5em 0.3em !important;
+		width: 100% !important;
+		border-radius: 3px;
+		display: block;
+	}
+	.formAccountButtons:hover {
+		background-color: #ddd;
+		border: 1px solid #dddddd;
+		color: #777;
+		font-weight: 600;
+		outline: none;
+		padding: 0.5em 0.3em;
+		width: 170px;
+		border-radius: 3px;
+		display: block;
+	}
+
+	.shortText {
+		font-size: 14px;
+		color: #999;
+	}
+	.titleAccount {
+	}
+	.subTitleAccount {
+		font-size: 14px;
+		line-height: 16px;
+		color: #555;
+		font-weight: 400;
+	}
+	.subFooterAccount {
+		font-size: 14px;
+		line-height: 16px;
+		color: #aaa;
+	}
+	.formLevelAccount {
+		font-size: 15px;
+		font-weight: 600;
+	}
+}

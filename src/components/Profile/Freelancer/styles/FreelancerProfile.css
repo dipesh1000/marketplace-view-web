@@ -1,0 +1,404 @@
+.profile-wrapper {
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.profile-wrapper .freelancerProfile-layout {
+  padding: 30px 0;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info {
+  border: 1px solid #ddd;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info h6 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info button {
+  width: 100%;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details {
+  text-align: center;
+  line-height: 23px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .profile-username {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222325;
+  text-align: center;
+  display: block;
+  margin-block: 1rem;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .profile-rating-section {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .profile-rating-section .profile-stars {
+  color: #ffb33e;
+  font-size: 16px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .profile-rating-section .profile-stars > * {
+  margin-right: 0.2rem;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .profile-rating-section .profile-rating {
+  font-weight: 700;
+  color: #62646a !important;
+  padding-left: 4px;
+  margin-top: 0.2rem;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .profile-rating-section .profile-rating-count {
+  color: #95979d;
+  padding-left: 4px;
+  margin-top: 0.2rem;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .report-user {
+  font-size: 14px;
+  color: #95979d;
+  cursor: pointer;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .freelancer-details .report-user i {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #62646a;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-details .detail-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-details .detail-level span {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-details p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-image .profile-save {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-image .profile-save i {
+  cursor: pointer;
+  color: #b2b2b2;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-image .image-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-image .image-div img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-image span {
+  border: 1px solid #1dbf73;
+  padding: 0 6px;
+  color: #1dbf73;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .profile-image span svg {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper .contact-button,
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper .quote-button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  padding-left: 0;
+  padding-right: 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper .contact-button {
+  color: white;
+  background: #1dbf73;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper .contact-button:hover {
+  background: #19a463;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper .quote-button {
+  color: #62646a;
+  border-color: #62646a;
+  background: #fff;
+}
+
+.profile-wrapper .freelancerProfile-layout .profile-Info .buttons-wrapper .quote-button:hover {
+  background: #7a7d85;
+  color: #fff;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content {
+  border: 1px solid #ddd;
+  padding: 30px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-head h5 {
+  font-size: 16px;
+  color: #0e0e0f;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-head a {
+  color: #00698c;
+  font-size: 15px;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-head a:hover {
+  color: #00698c !important;
+  text-decoration: underline !important;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body {
+  color: #62646a;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body p {
+  overflow-wrap: break-word;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .meta-descript {
+  overflow-wrap: anywhere;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-level .level-text {
+  margin-bottom: 0;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-level span {
+  margin-left: 10px;
+  color: #b2b2b2;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .baseLevel {
+  margin-bottom: 20px;
+  color: #b2b2b2;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .conent-item {
+  color: #00698c !important;
+  border: none;
+  padding: 7px 0;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .conent-item svg {
+  font-size: 13px;
+  margin-right: 15px;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .conent-item:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-skills {
+  color: #555;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-skills a {
+  border-radius: 15px;
+  display: inline-block;
+  position: relative;
+  min-width: 40px;
+  text-align: center;
+  padding: 5px 12px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #e5e5e5;
+  color: #555;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-skills a:hover {
+  background: #f4f4f4;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-suggestion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-suggestion a {
+  background-color: #fafafa;
+  color: #777;
+  padding: 6px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 2px 5px;
+}
+
+.profile-wrapper .freelancerProfile-layout .meta-content .meta-content-body .content-suggestion a:hover {
+  border: 1px solid #e5e5e5;
+}
+
+.profile-wrapper .main-contain .freelancer-gigs {
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.profile-wrapper .main-contain .notation-box {
+  border: 1px solid #ddd;
+  padding: 20px 24px;
+  background-color: #fff;
+  color: #62646a;
+}
+
+.profile-wrapper .main-contain .box-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-wrapper .main-contain .box-layout p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.profile-wrapper .main-contain .box-layout button {
+  border: 1px solid #1dbf73;
+  background-color: #1dbf73;
+  font-size: 13px;
+  font-weight: 700;
+  -webkit-transition: color 0.2s, background-color 0.2s, border 0.2s, -webkit-box-shadow 0.2s;
+  transition: color 0.2s, background-color 0.2s, border 0.2s, -webkit-box-shadow 0.2s;
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s, border 0.2s;
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s, border 0.2s, -webkit-box-shadow 0.2s;
+}
+
+.profile-wrapper .main-contain .box-layout button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.profile-wrapper .main-contain .box-layout button:active {
+  border: 1px solid #1dbf73;
+  background-color: #1dbf73;
+}
+
+.profile-wrapper #Footer_footer__1w0lV {
+  padding: 0 0px 34px 0px;
+  background: #fff;
+}
+/*# sourceMappingURL=FreelancerProfile.css.map */

@@ -1,0 +1,94 @@
+.footer__copyright {
+  height: 68px;
+}
+
+.footer__copyright .copyright__wrapper {
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copyright .copyright__wrapper .copy__left p {
+  color: #7a7d85;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer__copyright .copyright__wrapper .copy__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 440px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__copyright .copyright__wrapper .copy__right .right__lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copyright .copyright__wrapper .copy__right .right__lang a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  font-family: "Raleway", sans-serif;
+  color: #7a7d85;
+  margin-right: 30px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copyright .copyright__wrapper .copy__right .social__icons a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  font-family: "Raleway", sans-serif;
+  color: #7a7d85;
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__copyright .copyright__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__copyright .copyright__wrapper .copy__right .right__lang {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+/*# sourceMappingURL=Copyright.css.map */

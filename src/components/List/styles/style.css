@@ -1,0 +1,308 @@
+.list-page {
+  padding: 45px 30px;
+}
+
+.list-page .list-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.list-page .list-header .title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+}
+
+.list-page .list-header .title-section .title {
+  font-size: 32px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+.list-page .list-header .title-section .title-list {
+  color: #b5b6ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.list-page .list-header .title-section .title-list .icon {
+  font-size: 1.2rem;
+}
+
+.list-page .list-header .title-section .subtitle {
+  font-size: 16px;
+  color: gray;
+  max-width: 500px;
+  margin: 10px 0;
+}
+
+.list-page .list-header .header-icons {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  font-size: 1rem;
+}
+
+.list-page .list-header .header-icons i {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #62646a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.list-page .list-header .header-icons i:hover {
+  background-color: #f0efef;
+}
+
+.list-page .list-header .header-icons .edit-button {
+  position: absolute;
+  top: 2rem;
+  left: -5rem;
+  border-radius: 4px;
+}
+
+.list-page .list-header .header-icons .edit-button .menu-items {
+  color: #62646a;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e4e5e7;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 0 4px 2px #efeff0;
+          box-shadow: 0 0 4px 2px #efeff0;
+}
+
+.list-page .list-header .header-icons .edit-button .menu-items .menu-item {
+  padding: 10px 78px 0px 24px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.list-page .list-header .header-icons .edit-button .menu-items .menu-item:hover {
+  background-color: #f5f5f5;
+}
+
+.list-page .list-header .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 21px;
+  margin-top: 1rem;
+}
+
+.list-page .list-header .profile .avatar {
+  width: 24px;
+  height: 24px;
+  font-size: 1em;
+  border-radius: 50%;
+  background-color: #b5b6ba;
+  text-align: center;
+}
+
+.list-page .list-header .profile .creator-name {
+  color: #7a7d85;
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.list-page .list-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 1rem 0;
+  border-bottom: 1px solid #efeff0;
+}
+
+.list-page .list-nav .list-active {
+  color: #1dbf73;
+  border-bottom: 2px solid #1dbf73;
+  padding: 10px 20px;
+  z-index: 10;
+}
+
+.list-page .list-nav .list-inactive {
+  padding: 10px 20px;
+  color: #7a7d85;
+}
+
+.list-page .sellers {
+  margin-top: 2rem;
+}
+
+.list-page .sellers .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border: 1px solid #e4e5e7;
+  -webkit-box-shadow: 0 2px 8px #e4e5e7;
+          box-shadow: 0 2px 8px #e4e5e7;
+  width: 17rem;
+  height: auto;
+}
+
+.list-page .sellers .profile .profile-image {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-top: 3rem;
+}
+
+.list-page .sellers .profile .profile-name {
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list-page .sellers .profile .profile-name .profile-title .rating {
+  color: #ffbf00;
+}
+
+.list-page .sellers .profile .profile-name .profile-title b {
+  margin-right: 0.5rem;
+}
+
+.list-page .sellers .profile .profile-name .profile-title span {
+  font-size: 0.8rem;
+  color: #b5b6ba;
+  font-weight: 600;
+}
+
+.list-page .sellers .profile .profile-name .contact-seller {
+  cursor: pointer;
+  color: #4a73e8 !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.list-page .sellers .profile .profile-name .contact-seller:hover {
+  text-decoration: underline !important;
+}
+
+.list-page .sellers .profile .profile-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+  padding-top: 24px;
+  min-height: 72px;
+  color: #62646a;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.list-page .sellers .profile .profile-info b {
+  margin-left: 5px;
+}
+
+.list-page .sellers .profile .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 14px 16px;
+  border-top: 1px solid #e4e5e7;
+}
+
+.list-page .sellers .profile .footer .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  color: #95979d;
+}
+
+.list-page .sellers .profile .footer .footer-icons .like {
+  color: red;
+}
+
+.list-page .sellers .profile .footer .services {
+  cursor: pointer;
+  color: #95979d;
+  font-size: 14px;
+}
+
+.list-page .sellers .profile .footer .services:hover {
+  color: #1dbf73;
+}
+/*# sourceMappingURL=style.css.map */

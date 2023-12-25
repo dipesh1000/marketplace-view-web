@@ -1,0 +1,26 @@
+.main-container {
+	width: 80%;
+	margin: 0 auto;
+	.left-container {
+		margin: 2rem 2rem 2rem 0;
+		.header {
+			font-size: 24px;
+			font-weight: 500;
+			padding-block: 0 1rem;
+			border-bottom: 1px solid rgb(208, 208, 208);
+		}
+		.sub-text {
+			padding-block: 1rem 0;
+			word-spacing: 0.1rem;
+			small {
+				font-size: 12px;
+				a {
+					&:hover {
+						text-decoration: underline !important;
+						color: rgb(0, 0, 255) !important;
+					}
+				}
+			}
+		}
+	}
+}

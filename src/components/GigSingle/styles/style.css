@@ -1,0 +1,31 @@
+
+
+.radioItem input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1px solid #bbbbbb;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5px;
+
+  margin-bottom: 2px;
+}
+
+.radioItem input[type="radio"]:checked {
+ background-color: #1dbf73;
+  outline: none;
+  padding: 3px;
+}
+
+.radioItem input[type="radio"]:focus {
+  outline: none;
+}

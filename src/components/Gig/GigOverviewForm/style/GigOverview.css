@@ -1,0 +1,274 @@
+@charset "UTF-8";
+.overview {
+  margin-left: 30px;
+  margin-right: 60px;
+  /* appearance for checked radiobutton */
+}
+
+.overview .tab-content {
+  padding: 10px 20px;
+}
+
+.overview .tab-content .title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7a7d88 !important;
+  margin-bottom: 12px;
+}
+
+.overview .overview-wrapper {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #dadbdd;
+  border-radius: 6px 6px 2px 2px;
+}
+
+.overview .label {
+  width: 110px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: right;
+  margin-right: 30px;
+  color: #575555;
+}
+
+.overview .row {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.overview .tab {
+  border: 1px solid #dadbdd;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.overview .tab .nav {
+  background-color: #f5f5f5 !important;
+  height: 100%;
+}
+
+.overview .tab .nav .nav-link {
+  color: #7a7d85 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 40px;
+  border-radius: 0;
+  border-right: 1px solid #dadbdd;
+}
+
+.overview .tab .nav .nav-link.active {
+  background-color: white !important;
+  border-top: 1px solid #dadbdd;
+  border-bottom: 1px solid #dadbdd;
+  border-right: none;
+}
+
+.overview .tab .nav .nav-item:first-child .nav-link.active {
+  border-top: none;
+}
+
+.overview input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 8px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1px solid #bbbbbb;
+  border-radius: 50%;
+}
+
+.overview input[type="radio"]:checked {
+  background-color: #95979d;
+  outline: none;
+  padding: 4px;
+}
+
+.overview input[type="radio"]:focus {
+  outline: none;
+}
+
+.overview .form-check-label {
+  font-size: 13px;
+  color: #414040;
+}
+
+.overview .radio-wrap,
+.overview .checkbox-wrap {
+  margin-bottom: 12px;
+}
+
+.overview input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px !important;
+  left: 0px !important;
+  margin: 0px;
+  margin-top: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #c5c4c4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  border-radius: 2px;
+}
+
+.overview input[type="checkbox"]:checked:after {
+  content: "✔";
+  color: #555657;
+}
+
+.overview input[type="checkbox"]:focus {
+  outline: none;
+}
+
+.overview .select {
+  border-radius: 0 !important;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.overview .select option:hover {
+  color: #1dbf73 !important;
+}
+
+.overview .select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.overview .text-muted {
+  font-size: 12px;
+}
+
+.overview .form-control {
+  border: 1px solid #b5b6ba !important;
+}
+
+.overview .custom-text {
+  text-indent: 100px;
+  position: relative;
+  font-size: 40px !important;
+  line-height: 45px !important;
+  resize: none;
+  color: gray !important;
+}
+
+.overview .hide {
+  display: none !important;
+}
+
+.overview .textarea-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.overview .textarea-container .i-will {
+  content: "I will";
+  position: absolute;
+  font-size: 40px;
+  line-height: 45px;
+  top: 8px;
+  left: 15px;
+  color: #dadbdd;
+}
+
+.overview textarea {
+  min-height: 115px;
+}
+
+.overview textarea::-webkit-input-placeholder {
+  color: #dadbdd !important;
+  font-weight: 400;
+}
+
+.overview textarea:-ms-input-placeholder {
+  color: #dadbdd !important;
+  font-weight: 400;
+}
+
+.overview textarea::-ms-input-placeholder {
+  color: #dadbdd !important;
+  font-weight: 400;
+}
+
+.overview textarea::placeholder {
+  color: #dadbdd !important;
+  font-weight: 400;
+}
+
+.overview .helpertext {
+  font-size: 12px;
+  text-align: right;
+  line-height: 24px;
+  color: #95979d;
+}
+
+.overview .custom-btn {
+  font-weight: 600;
+  text-transform: capitalize;
+  text-shadow: none;
+  line-height: 45px;
+  padding: 0px 35px;
+  border-radius: 3px;
+}
+
+.overview .cancel {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5f5));
+  background: linear-gradient(#fff, #f5f5f5);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #303030 !important;
+}
+
+.overview .cancel:hover {
+  text-decoration: none;
+  color: #303030 !important;
+}
+
+.overview .successBtn {
+  background-color: #50c074;
+  color: white;
+  border: none;
+}
+
+.overview .successBtn:hover {
+  background-color: #5fce82;
+}
+
+.overview .extra-description {
+  color: #62646a;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding-left: 20%;
+}
+
+.overview .extra-description span {
+  font-weight: 700;
+  color: #fc8439;
+}
+
+.overview .error-message {
+  font-size: 12px;
+  color: #d64747;
+  position: absolute;
+  right: 15px;
+}
+/*# sourceMappingURL=GigOverview.css.map */

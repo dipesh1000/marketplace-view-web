@@ -1,0 +1,240 @@
+.OrderDetailMain {
+    padding-top: 20px;
+    font-size: 14px;
+    .alertRequirment {
+        color: #fff;
+        background-color: #1dbf73;
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        border-radius: 3px;
+        padding: 15px;
+        align-items: center;
+        svg {
+            padding-right: 5px;
+            font-size: 19px;
+        }
+        span {
+            font-size: 15px;
+            font-weight: 400;
+        }
+        a {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 400;
+            margin-left: 30px;
+            text-decoration: underline;
+        }
+    }
+    .orderDetailsWrapper {
+        padding: 15px 0;
+        .orderTitle {
+            h3 {
+                font-size: 28px;
+                padding: 5px 0 40px;
+                color: #404145;
+                font-weight: 700;
+            }
+        }
+        .OrderItem {
+            display: flex;
+            .orderImage {
+                width: 150px;
+                img {
+                    width: 100%;
+                }
+            }
+            .orderContent {
+                margin-left: 15px;
+                width: 450px;
+                
+                p {
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-top: -5px;
+                    padding-bottom: 5px;
+                    color: #62646a;
+                    max-width: 345px;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                    a {
+                        color: #404145;
+                    }
+                }
+                .reviews {
+                    color: #95979d;
+                    padding-top: 5px;
+                    font-size: 14px;
+                    .fill {
+                        font-size: 11px;
+                        color: #ffbf00;
+                    }
+                    span {
+                        b {
+                            color: #62646a;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+                .whatsInclude {
+                    color: #1dbf73;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: flex-end;
+                    margin-top: 11px;
+                }
+            }
+            .cardPricing {
+                flex: 1;
+                margin-top: -5px;
+                display: flex;
+                .qtyForm {
+                    display: inline-flex;
+                    width: 145px;
+                    color: #62646a;
+                    .form-group {
+                        width: 100%;
+                        .form-label {
+                            padding-right: 0px;
+                        }
+                    }
+                }
+                .orderPrice {
+                    text-align: right; 
+                    flex: 1;
+                    color: #62646a;
+                }
+            }
+    
+        }
+    }
+    .priceOverviewWrapper {
+        margin-top: 30px;
+        .priceOverview {
+            border: 1px solid #ddd;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            .pricingItem {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                p {
+                    margin-bottom: 0;
+                }
+                button {
+                    background: #1dbf73;
+                    background-color: #1dbf73;
+                    border: 1px solid #1dbf73;
+                    width: 100%;
+                    padding: 15px;
+                    font-size: 16px;
+                    line-height: 16px;
+                    font-weight: 700;
+                    border-radius: 3px;
+                }
+            }
+            span {
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+.orderServices {
+    padding-top: 20px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #62646a;
+    h6 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #404145;
+    }
+    p{
+        margin-bottom: 0;
+    }
+    .serivce-summary {
+        .service-list {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-top: 20px;
+            width: 60%;
+            .service-item {
+                padding-top: 20px;
+                svg {
+                    color: #1dbf73;
+                    font-weight: 900;
+                }
+                span {
+                    margin-left: 15px;
+                    color: #95979d;
+                }
+            }
+        }
+        .compact {
+            max-height: 144px;
+        }
+    }
+}
+.addExtraService {
+    padding-top: 25px;
+    padding-bottom: 80px;
+    .extraHeader {
+        padding-left: 20px;
+        padding-bottom: 15px;
+        line-height: 14px;
+    }
+    .addExtra {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        min-height: 23px;
+        cursor: pointer;
+        .extra-holder{
+            display: flex;
+            width: 20%;
+            justify-content: flex-end;
+        }
+        .qty-Form{
+            width: 100px;
+            margin-right: 30px;
+        }
+        .details {
+            
+            label{
+                font-weight: 700;
+                display: block;
+                cursor: pointer;
+            }
+            .detailsLevel {
+                margin-left: 20px;
+                p, span {
+                    color: #62646a;
+                    margin-bottom: 0;
+                    padding-top: 5px;
+                }
+            }
+        }
+        .addpricing {
+            width: 40px;
+            align-self: flex-start;
+        }
+        &:hover {
+            background-color: #fafafa;
+            box-shadow: 0 0 0 1px #ddd;
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.sellerNav {
+  border-bottom: 1px solid #e0e0e0!important;
+}
+.profile-wrapper {
+  .navbar {
+    background: white;
+  }
+}
+.navbar_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.flex_first {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex_second {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  a {
+    line-height: 80px;
+    padding: 0 24px 0px 0px;
+    display: inline-block;
+    font-weight: 600;
+    color: #7d8088 !important;
+    &:hover {
+      text-decoration: none;
+      color: #1dbf73 !important;
+    }
+  }
+}
+.logo {
+  height: 80px;
+  padding-top: 25px;
+  padding-right: 32px;
+  img {
+    height: 30px;
+  }
+}
+
+.switch_link {
+  line-height: 80px;
+  a {
+    color: #1dbf73;
+    font-weight: 600;
+    &:hover {
+      color: #1dbf73 !important;
+
+      text-decoration: none;
+    }
+  }
+}
+.profile_img {
+  margin-top: 24px;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+  }
+}
+.amount {
+  line-height: 80px;
+  margin-left: 24px;
+  span {
+    color: #1dbf73;
+    border-radius: 3px;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 20px;
+    padding: 0px 5px 2px 5px;
+    border: 1px solid #1dbf73;
+  }
+}
+.profile_dropdown {
+  button {
+    background: none !important;
+    border: none !important;
+    padding: 0;
+    box-shadow: none !important;
+    margin: 0;
+    margin-left: 24px;
+    &:hover,
+    &:active {
+      background: none;
+      border: none;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  .line-break {
+    width: 90%;
+    margin: 8px auto;
+    border-top: 1px solid rgb(221, 218, 218);
+  }
+  .dropdown-menu {
+    box-shadow: 0 0 5px 1px #8f8d8d24;
+    background: white;
+    margin-top: 8px !important;
+    min-width: 210px;
+    right: 0 !important;
+    left: 0px !important;
+    border-radius: 3px !important;
+
+    &::after {
+      content: "";
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      top: -8px;
+      background: white;
+      right: 8px;
+      transform: rotate(45deg);
+      border-radius: 2px;
+      border-top: 1px solid #d4d4d4;
+      border-left: 1px solid #d4d4d4;
+    }
+    .dropdown-item {
+      color: #797979;
+      padding: 5px 15px;
+      &:hover {
+        color: #52ca89 !important;
+        background: none;
+      }
+      &:active {
+        background: none;
+      }
+    }
+  }
+}

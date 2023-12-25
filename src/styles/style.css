@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam", sans-serif !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1400px !important;
+    padding: 0px 30px !important;
+  }
+}
+
+.main_content {
+  background-color: #f7f7f7;
+}
+
+.my-facebook-button-class {
+  background: #3f51b5;
+  color: white;
+  width: 100%;
+  line-height: 36px;
+  margin-top: 15px;
+  font-size: 14px;
+  border: navajowhite;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 3px #868686;
+          box-shadow: 0px 2px 3px #868686;
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+
+.my-facebook-button-class:hover {
+  background: #2e2ead;
+}
+
+.my-facebook-button-class i {
+  padding-right: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  color: #1414a5;
+}
+
+.error-message {
+  font-size: 12px;
+  color: #d64747;
+}
+/*# sourceMappingURL=style.css.map */

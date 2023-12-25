@@ -1,0 +1,148 @@
+.parent-form .FormInnerContainer {
+  padding: 20px 35px;
+}
+
+.parent-form .FormInnerContainer h2 {
+  display: block;
+  padding: 15px 0;
+  font-weight: 900;
+  color: #555555;
+}
+
+.parent-form .FormInnerContainer p {
+  font-size: 15px;
+  color: #999;
+  line-height: 23px;
+}
+
+.parent-form .FormInnerContainer i {
+  display: block;
+  color: #999;
+  font-size: 13px;
+}
+
+.parent-form .subHeading {
+  padding-top: 30px;
+}
+
+.parent-form .formSubmit {
+  background-color: #1dbf73 !important;
+  border: 1px solid #04bb66 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  outline: none !important;
+  padding: 0.5em 0.3em !important;
+  width: 170px !important;
+  border-radius: 3px !important;
+  display: block !important;
+  margin-left: auto;
+}
+
+.parent-form .socialBrand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent-form .socialBrand p {
+  padding-right: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  color: #404145;
+}
+
+.parent-form .socialBrand small {
+  color: #04bb66;
+}
+
+.parent-form .socialBrand img {
+  margin-right: 12px;
+}
+
+.parent-form .connectButton {
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  color: #777;
+  font-weight: 400;
+  outline: none;
+  padding: 0.5em 0.3em;
+  width: 170px;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+}
+
+.parent-form .connectButton:hover {
+  border: 1px solid #b3b3b3;
+}
+
+.parent-form .active {
+  background-color: #edfaf0 !important;
+}
+
+.parent-form .formLevels {
+  color: #404145;
+}
+
+.parent-form .buttonEdu {
+  display: block;
+  text-align: right;
+}
+
+.parent-form .Accounts_icon {
+  color: #999;
+  font-size: 1.9em;
+  margin-right: 15px;
+}
+
+.parent-form .formAccountButtons {
+  background-color: #ddd !important;
+  border: 1px solid #dddddd !important;
+  color: #777 !important;
+  font-weight: 600 !important;
+  outline: none !important;
+  padding: 0.5em 0.3em !important;
+  width: 100% !important;
+  border-radius: 3px;
+  display: block;
+}
+
+.parent-form .formAccountButtons:hover {
+  background-color: #ddd;
+  border: 1px solid #dddddd;
+  color: #777;
+  font-weight: 600;
+  outline: none;
+  padding: 0.5em 0.3em;
+  width: 170px;
+  border-radius: 3px;
+  display: block;
+}
+
+.parent-form .shortText {
+  font-size: 14px;
+  color: #999;
+}
+
+.parent-form .subTitleAccount {
+  font-size: 14px;
+  line-height: 16px;
+  color: #555;
+  font-weight: 400;
+}
+
+.parent-form .subFooterAccount {
+  font-size: 14px;
+  line-height: 16px;
+  color: #aaa;
+}
+
+.parent-form .formLevelAccount {
+  font-size: 15px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */

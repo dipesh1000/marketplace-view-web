@@ -1,0 +1,11 @@
+.inputStyle {
+    width: 100%;
+    border: .5px solid #e5e5e5;
+    border-radius: 2px;
+    padding: .5em;
+    outline: none;
+}
+
+.errors {
+    border: .5px solid #FF6565!important;
+  }

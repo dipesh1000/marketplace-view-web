@@ -1,0 +1,54 @@
+.orderHeaderRow {
+  height: 80px;
+  width: 100%;
+}
+
+.orderHeaderRow .container {
+  height: 100%;
+}
+
+.orderHeaderRow .container .steps {
+  color: #b5b6ba;
+}
+
+.orderHeaderRow .container .steps .nav-link.active {
+  color: #1dbf73;
+}
+
+.orderHeaderRow .container .steps .nav-link.active .stepLevel {
+  background-color: #1dbf73;
+}
+
+.orderHeaderRow .container .steps .nav-link.active .stepText {
+  color: #1dbf73;
+}
+
+.orderHeaderRow .container .steps .nav-link .stepLevel {
+  font-size: 16px;
+  margin-right: 8px;
+  height: 25px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #c5c6c9;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.orderHeaderRow .container .steps .nav-link .stepText {
+  font-weight: 600;
+  color: #b5b6ba;
+}
+
+.orderHeaderRow .container .steps .stepArrow {
+  color: #222325;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 16px;
+}
+/*# sourceMappingURL=Order.css.map */

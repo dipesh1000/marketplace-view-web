@@ -1,0 +1,27 @@
+.wrapper-success {
+	outline: none;
+	width: 350px;
+	height: 90px;
+	padding: 1em;
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 2px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 99999;
+}
+.success {
+	background-color: #0cab0c;
+}
+.error {
+	background-color: orangered;
+}
+.toast-message {
+	font-weight: 400;
+	color: #fff;
+}
+.toasterCross {
+	cursor: pointer;
+}

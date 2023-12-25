@@ -1,0 +1,301 @@
+.professional-form {
+  /* .selectGroup {
+    position: relative;
+} */
+}
+
+.professional-form .FormInnerContainer {
+  padding: 20px 35px;
+}
+
+.professional-form .FormInnerContainer h2 {
+  display: block;
+  padding: 15px 0;
+  font-weight: 900;
+  color: #555555;
+}
+
+.professional-form .FormInnerContainer p {
+  font-size: 15px;
+  width: 475px;
+  color: #999;
+  line-height: 23px;
+}
+
+.professional-form .FormInnerContainer i {
+  display: block;
+  text-align: right;
+  color: #999;
+}
+
+.professional-form .FormInnerContainer .formLevels {
+  color: #404145;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.professional-form .FormInnerContainer .formLevels b {
+  color: red;
+}
+
+.professional-form .inputStyle {
+  width: 100%;
+  border: 0.5px solid #e5e5e5;
+  border-radius: 2px;
+  padding: 0.5em;
+  outline: none;
+}
+
+.professional-form .inputError {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+}
+
+.professional-form .errors {
+  border: 0.5px solid #ff6565 !important;
+}
+
+.professional-form .formSubLevels {
+  font-size: 12px;
+}
+
+.professional-form .formSubmit {
+  background-color: #1dbf73;
+  border: 1px solid #04bb66;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  padding: 0.5em 3em;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+}
+
+.professional-form .formLevels {
+  color: #777777;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.professional-form .formInnerLevels {
+  color: #777777;
+  font-size: 0.9em;
+  padding-right: 0 !important;
+}
+
+.professional-form .columns {
+  -webkit-columns: 3;
+          columns: 3;
+  width: 600px;
+  overflow: hidden;
+  padding: 10px 0 10px 15px;
+}
+
+.professional-form .mainTitle {
+  color: #424242 !important;
+  font-size: 17px !important;
+  margin-bottom: 0.4em !important;
+}
+
+.professional-form .selectxl {
+  background-position-x: 325px !important;
+}
+
+.professional-form .select {
+  position: relative;
+  font-size: 0.88em !important;
+  height: 45px !important;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+  background-size: 10px;
+  opacity: 0.8;
+  -webkit-appearance: none;
+  background-position-x: 94%;
+  border: 0.9px solid #e5e5e5 !important;
+  outline: none;
+}
+
+.professional-form .selectmd {
+  background-position-x: 220px !important;
+}
+
+.professional-form .selectsm {
+  background-position-x: 90% !important;
+}
+
+.professional-form .selectxs {
+  background-position-x: 87% !important;
+}
+
+.professional-form .btnGreen {
+  background: #1dbf73;
+  color: white !important;
+  padding: 0 10px;
+}
+
+.professional-form .btnGreen:hover {
+  color: white;
+}
+
+.professional-form .errorInputFiled {
+  position: relative;
+  border: 1px solid red;
+}
+
+.professional-form .errorMsg {
+  position: absolute;
+  top: 48px;
+  font-weight: 500;
+}
+
+.professional-form .select option:hover {
+  color: #1dbf73 !important;
+}
+
+.professional-form .select:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.professional-form .arrowIcon {
+  position: absolute;
+  z-index: 1;
+  right: 25px;
+  top: 13px;
+}
+
+.professional-form .addNewBtn {
+  background: transparent;
+  outline: none;
+  border: 0;
+  font-weight: 600;
+  color: #1dbf73;
+  font-size: 14px;
+}
+
+.professional-form .removeBtn {
+  background: transparent;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  margin-top: 5px !important;
+  height: 100%;
+  color: #a4a4a4;
+  position: absolute;
+  left: 0;
+}
+
+.professional-form .selectorWrapper {
+  border: 0.5px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 0.6em;
+  margin-bottom: 10px;
+}
+
+.professional-form .selectorWrapper .form-control {
+  height: calc(1.9em + 0.75rem + 2px) !important;
+}
+
+.professional-form .selectorWrapper .css-g1d714-ValueContainer {
+  height: calc(1.65em + 0.75rem + 2px) !important;
+}
+
+.professional-form .customSellerBorder .form-control {
+  height: calc(1.9em + 0.75rem + 2px) !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.professional-form .RepeaterBtnCancel {
+  color: #b2b2b2;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.professional-form .RepeaterBtnAdd {
+  color: #b2b2b2;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 3px;
+  padding: 8px 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.professional-form .buttonEdu {
+  display: block;
+  text-align: right;
+}
+
+.professional-form .formSubmit {
+  background-color: #1dbf73;
+  border: 1px solid #04bb66;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  padding: 0.5em 3em;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+}
+
+.professional-form .suggestionTitle {
+  color: #777;
+  font-size: 16px;
+}
+
+.professional-form .suggestionItem {
+  background: #f4f4f4;
+  color: #777;
+  margin-left: 10px;
+  padding: 0.4em 0.6em;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.professional-form .checkbox-wrap {
+  padding: 0.5em;
+}
+
+.professional-form ::-webkit-input-placeholder {
+  color: #b3b0b0;
+  opacity: 1;
+  /* Firefox */
+  font-weight: 500;
+}
+
+.professional-form :-ms-input-placeholder {
+  color: #b3b0b0;
+  opacity: 1;
+  /* Firefox */
+  font-weight: 500;
+}
+
+.professional-form ::-ms-input-placeholder {
+  color: #b3b0b0;
+  opacity: 1;
+  /* Firefox */
+  font-weight: 500;
+}
+
+.professional-form ::placeholder {
+  color: #b3b0b0;
+  opacity: 1;
+  /* Firefox */
+  font-weight: 500;
+}
+
+.professional-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b3b0b0;
+}
+
+.professional-form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b3b0b0;
+}
+/*# sourceMappingURL=style.css.map */

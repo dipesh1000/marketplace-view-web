@@ -1,0 +1,19 @@
+.OverrideBread .breadcrumb {
+    background-color: transparent!important;
+    font-size: 15px;
+    padding: 2.3em 0 .8em 0;
+    margin-bottom: 0;
+}
+.OverrideBread .breadcrumb a {
+    color: #4a73e8;
+}
+.OverrideBread .breadcrumb a:hover {
+    color: #007bff!important;
+    text-decoration: underline!important;
+}
+
+.OverrideBread .breadcrumb .breadcrumb-item+.breadcrumb-item::before { 
+    content: '>';
+    color: #333;
+    font-size: 1em;
+}

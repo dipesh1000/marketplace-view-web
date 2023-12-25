@@ -1,0 +1,365 @@
+.info-section {
+  background: white;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 20px;
+  border-right: 1px solid #e4e5e7;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.info-section .user-wrap {
+  width: 50%;
+  margin: 5px 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info-section .user-wrap .img-container {
+  width: 60px;
+  height: 60px;
+}
+
+.info-section .user-wrap .img-container img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: inherit;
+  width: inherit;
+}
+
+.info-section .user-wrap .user-name {
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #62646a;
+}
+
+.info-section .stars {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 20px;
+  font-weight: 300;
+  color: #62646a;
+}
+
+.info-section .stars i {
+  font-size: 14px;
+  color: #ffc23d;
+}
+
+.info-section .line-break {
+  width: 100%;
+  margin: 15px auto;
+  border-top: 1px solid #e4e5e7;
+}
+
+.info-section ul {
+  display: block;
+}
+
+.info-section ul li {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.info-section ul li a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-section ul li a .title {
+  font-size: 16px;
+  color: #404145;
+  line-height: 22px;
+}
+
+.info-section ul li a .rating {
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #404145;
+}
+
+.info-section .other-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-section .other-info .title {
+  font-size: 16px;
+  color: #62646a;
+}
+
+.info-section .other-info .value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #62646a;
+  text-align: right;
+}
+
+.info-section .other-info:last-child {
+  margin-top: 12px;
+}
+
+.link-section {
+  background: white;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-right: 1px solid #e4e5e7;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.link-section .title {
+  font-weight: 600;
+}
+
+.link-section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.link-section ul li {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.link-section ul li i {
+  background: #d4defb;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  height: 40px;
+  font-size: 26px;
+  border-radius: 50%;
+  color: white;
+}
+
+.link-section ul li .fa-facebook-f {
+  background: #3b5998;
+}
+
+.link-section ul li .fa-github {
+  background: #222325;
+}
+
+.main-area {
+  margin: 20px;
+  margin-right: 5px;
+}
+
+.main-area .orders .order-bar {
+  -webkit-box-shadow: 0 2px 3px -2px #00000026;
+          box-shadow: 0 2px 3px -2px #00000026;
+  border: 1px solid #eee;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 11px 10px;
+}
+
+.main-area .orders .order-bar .order-title {
+  font-size: 18px;
+  line-height: 42px;
+  color: #0e0e0f;
+  font-weight: 700;
+}
+
+.main-area .orders .order-bar .order-title span {
+  font-size: 18px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.main-area .orders .order-bar .order-filter select {
+  background: none;
+  color: #62646a;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 42px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #d8d8d8;
+}
+
+.main-area .orders .order-bar .order-filter select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main-area .orders .order-bar .order-filter select i {
+  font-size: 12px;
+}
+
+.main-area .orders .order-bar .order-filter .dropdown-menu {
+  right: 0 !important;
+  font-size: 14px;
+}
+
+.main-area .orders .order-bar .order-filter .dropdown-item {
+  line-height: 36px;
+}
+
+.main-area .orders .order-bar .order-filter .dropdown-item:active {
+  background: none;
+}
+
+.main-area .orders .order-container .tab-section {
+  display: none;
+}
+
+.main-area .orders .order-container .tab-section .tab-list {
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #dadbdd;
+  border-radius: 4px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .first-wrap {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .gig-image {
+  height: 50px;
+  width: 80px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .gig-image img {
+  height: inherit;
+  width: inherit;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .user-profile {
+  height: 40px;
+  margin-right: 15px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .user-profile img {
+  height: inherit;
+  width: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .user-name {
+  width: 200px;
+  font-size: 15px !important;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .price .title {
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .price .value {
+  font-size: 16px;
+  color: #494848;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .status .title {
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .status .value {
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 11px;
+  padding: 3px 8px;
+  font-weight: 600;
+  border-radius: 10px;
+  background: gray;
+}
+
+.main-area .orders .order-container .tab-section .tab-list .action a {
+  color: #1dbf73;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-area .orders .order-container .tab-section.show {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

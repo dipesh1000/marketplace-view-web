@@ -1,0 +1,88 @@
+.NavOrderWrapper {
+  position: relative;
+}
+
+.NavOrderWrapper .orderTitle {
+  color: #7d8088;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.NavOrderWrapper .orderTitle:hover {
+  cursor: pointer;
+}
+
+.NavOrderWrapper .nav-dropdown-item {
+  position: absolute;
+  -webkit-box-shadow: 0 0 5px 1px #8f8d8d24;
+          box-shadow: 0 0 5px 1px #8f8d8d24;
+  background: white;
+  background-color: #fff;
+  width: 400px;
+  height: 430px;
+  top: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 2px !important;
+  z-index: 1000;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.NavOrderWrapper .nav-dropdown-item::after {
+  content: "";
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: -8px;
+  background: white;
+  right: 194px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 2px;
+  border-top: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
+}
+
+.NavOrderWrapper .empty-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.NavOrderWrapper .empty-container i {
+  font-size: 42px;
+  padding: 40px 20px;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  height: 120px;
+  color: #777777;
+  width: 120px;
+}
+
+.NavOrderWrapper .empty-container .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #464545;
+  line-height: 42px;
+}
+
+.NavOrderWrapper .empty-container .subtitle {
+  font-size: 14px;
+  color: gray;
+  width: 80%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=Style.css.map */

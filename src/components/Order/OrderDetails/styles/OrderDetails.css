@@ -1,0 +1,315 @@
+.OrderDetailMain {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.OrderDetailMain .alertRequirment {
+  color: #fff;
+  background-color: #1dbf73;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.OrderDetailMain .alertRequirment svg {
+  padding-right: 5px;
+  font-size: 19px;
+}
+
+.OrderDetailMain .alertRequirment span {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.OrderDetailMain .alertRequirment a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+.OrderDetailMain .orderDetailsWrapper {
+  padding: 15px 0;
+}
+
+.OrderDetailMain .orderDetailsWrapper .orderTitle h3 {
+  font-size: 28px;
+  padding: 5px 0 40px;
+  color: #404145;
+  font-weight: 700;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderImage {
+  width: 150px;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderImage img {
+  width: 100%;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent {
+  margin-left: 15px;
+  width: 450px;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: -5px;
+  padding-bottom: 5px;
+  color: #62646a;
+  max-width: 345px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent p a {
+  color: #404145;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent .reviews {
+  color: #95979d;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent .reviews .fill {
+  font-size: 11px;
+  color: #ffbf00;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent .reviews span b {
+  color: #62646a;
+  padding-left: 5px;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .orderContent .whatsInclude {
+  color: #1dbf73;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 11px;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .cardPricing {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .cardPricing .qtyForm {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 145px;
+  color: #62646a;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .cardPricing .qtyForm .form-group {
+  width: 100%;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .cardPricing .qtyForm .form-group .form-label {
+  padding-right: 0px;
+}
+
+.OrderDetailMain .orderDetailsWrapper .OrderItem .cardPricing .orderPrice {
+  text-align: right;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #62646a;
+}
+
+.OrderDetailMain .priceOverviewWrapper {
+  margin-top: 30px;
+}
+
+.OrderDetailMain .priceOverviewWrapper .priceOverview {
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.OrderDetailMain .priceOverviewWrapper .priceOverview .pricingItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.OrderDetailMain .priceOverviewWrapper .priceOverview .pricingItem p {
+  margin-bottom: 0;
+}
+
+.OrderDetailMain .priceOverviewWrapper .priceOverview .pricingItem button {
+  background: #1dbf73;
+  background-color: #1dbf73;
+  border: 1px solid #1dbf73;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.OrderDetailMain .priceOverviewWrapper .priceOverview span {
+  text-align: center;
+  font-size: 12px;
+}
+
+.orderServices {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #62646a;
+}
+
+.orderServices h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #404145;
+}
+
+.orderServices p {
+  margin-bottom: 0;
+}
+
+.orderServices .serivce-summary .service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  width: 60%;
+}
+
+.orderServices .serivce-summary .service-list .service-item {
+  padding-top: 20px;
+}
+
+.orderServices .serivce-summary .service-list .service-item svg {
+  color: #1dbf73;
+  font-weight: 900;
+}
+
+.orderServices .serivce-summary .service-list .service-item span {
+  margin-left: 15px;
+  color: #95979d;
+}
+
+.orderServices .serivce-summary .compact {
+  max-height: 144px;
+}
+
+.addExtraService {
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+
+.addExtraService .extraHeader {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  line-height: 14px;
+}
+
+.addExtraService .addExtra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  min-height: 23px;
+  cursor: pointer;
+}
+
+.addExtraService .addExtra .extra-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.addExtraService .addExtra .qty-Form {
+  width: 100px;
+  margin-right: 30px;
+}
+
+.addExtraService .addExtra .details label {
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+}
+
+.addExtraService .addExtra .details .detailsLevel {
+  margin-left: 20px;
+}
+
+.addExtraService .addExtra .details .detailsLevel p, .addExtraService .addExtra .details .detailsLevel span {
+  color: #62646a;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.addExtraService .addExtra .addpricing {
+  width: 40px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.addExtraService .addExtra:hover {
+  background-color: #fafafa;
+  -webkit-box-shadow: 0 0 0 1px #ddd;
+          box-shadow: 0 0 0 1px #ddd;
+}
+/*# sourceMappingURL=OrderDetails.css.map */

@@ -1,0 +1,17 @@
+.inputTextArea {
+    width: 100%;
+    height: 150px;
+    padding: .5em;
+    border: .5px solid #e5e5e5;
+    color: #333;
+    border-radius: 3px;
+    outline: none;
+}
+.inputError {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+}
+.errors {
+    border: .5px solid #FF6565!important;
+  }

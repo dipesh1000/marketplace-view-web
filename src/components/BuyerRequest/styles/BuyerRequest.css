@@ -1,0 +1,317 @@
+.gig-container .gig-header .search-btn {
+  justify-self: flex-end;
+  text-align: right;
+}
+
+.gig-container .gig-header .search-btn .search-field {
+  position: relative;
+}
+
+.gig-container .gig-header .search-btn .search-field input[type="text"] {
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  background-color: transparent;
+  width: 80%;
+  font-size: 14px;
+  padding: 7px 3px;
+  font-weight: 400;
+  -webkit-transition: border-color .2s,width .2s;
+  transition: border-color .2s,width .2s;
+}
+
+.gig-container .gig-header .search-btn .search-field input[type="text"]:focus {
+  outline: none;
+  width: 100%;
+  border-color: #1dbf73;
+}
+
+.gig-container .gig-header .search-btn .search-field button {
+  position: absolute;
+  right: 0;
+  border: none;
+  top: 4px;
+  color: #ddd;
+  background-color: transparent;
+}
+
+.gig-container .request-counter .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 15px;
+}
+
+.gig-container .request-counter .nav-item span {
+  background-color: #c2c2c2;
+  color: #fff;
+  font-size: 14px;
+  height: 26px;
+  min-width: 26px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0em .3em;
+}
+
+.gig-container .request-counter .nav-link.active::after {
+  bottom: -22px !important;
+}
+
+.gig-container .request-counter .left-order-level {
+  font-size: 14px;
+  color: #777777;
+}
+
+.gig-container .request-counter .left-order-level svg {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #1dbf73;
+}
+
+.gig-container .table-header {
+  padding: 15px 15px 15px 15px;
+}
+
+.gig-container .table-header .day-filter button {
+  height: 42px;
+  font-size: 15px;
+}
+
+.buyer-request-table th {
+  padding: 0 15px 0 0;
+}
+
+.buyer-request-table td {
+  padding: 15px 15px 15px 0;
+}
+
+.buyer-request-table thead {
+  background-color: transparent;
+}
+
+.buyer-request-table thead .colDate {
+  width: 110px !important;
+}
+
+.buyer-request-table thead .colBuyer {
+  width: 40px;
+}
+
+.buyer-request-table tbody tr td .hideOption {
+  display: none;
+}
+
+.buyer-request-table tbody tr:hover td {
+  background-color: #f4f4f4;
+}
+
+.buyer-request-table tbody tr:hover td .hideOption {
+  display: block;
+  font-size: 12px;
+}
+
+.buyer-request-table tbody tr:hover td .hideOption a {
+  display: inline-block;
+  color: #4a73e8;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.buyer-request-table tbody tr:hover td .hideOption a:hover {
+  color: #4a73e8 !important;
+  text-decoration: underline !important;
+}
+
+.buyer-request-table tbody tr:hover td .hideOption button {
+  background-color: #1dbf73;
+  color: #fff;
+  border: 1px solid #1dbf73;
+  font-weight: 900;
+  padding: .5em 0;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.buyer-request-table tbody .colDate {
+  width: 110px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.buyer-request-table tbody .colBuyer {
+  width: 40px;
+  padding-right: 20px;
+  height: 95px;
+}
+
+.buyer-request-table tbody .colBuyer .buyerImage {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.buyer-request-table tbody .colRequest .text_wrap {
+  max-width: 484px;
+}
+
+.buyer-request-table tbody .colRequest .text_wrap a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #777;
+}
+
+.buyer-request-table tbody .colRequest .text_wrap a:hover {
+  color: #4a73e8 !important;
+  text-decoration: underline !important;
+}
+
+.buyer-request-table tbody .colRequest .tags li {
+  background-color: #fff;
+  color: #777;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 4px 8px;
+  margin: 15px 7px 0 0;
+  border-radius: 3px;
+}
+
+.buyer-request-table tbody .colOffers {
+  width: 30px;
+}
+
+.buyer-request-table tbody .colDuration {
+  width: 113px;
+}
+
+.buyer-request-table tbody .colBudget {
+  width: 113px;
+  padding-right: 20px;
+}
+
+.offer-request-table .file-list a {
+  color: #1dbf73;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.offer-request-table .file-list a i {
+  margin-right: 5px;
+}
+
+.offer-request-table table td {
+  padding: 15px 15px 15px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.offer-request-table table td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.offer-request-table table td:last-child {
+  padding-right: 20px;
+}
+
+.offer-request-table table thead {
+  background: #fff;
+}
+
+.offer-request-table table thead th {
+  padding-left: 0;
+}
+
+.offer-request-table table thead th:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.offer-request-table table thead th:last-child {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.offer-request-table table tbody tr td {
+  text-align: left;
+  -webkit-transition: background-color .1s;
+  transition: background-color .1s;
+}
+
+.offer-request-table table tbody tr td h4 {
+  margin-top: -5px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.offer-request-table table tbody tr td.col-offer-1 {
+  max-width: 300px;
+  white-space: normal;
+  padding-right: 15px;
+}
+
+.offer-request-table table tbody tr td.col-offer-1 .offer_feature {
+  margin: 10px 0;
+}
+
+.offer-request-table table tbody tr td.col-offer-1 .offer_feature li {
+  color: #999;
+  margin-right: 15px;
+}
+
+.offer-request-table table tbody tr td.col-offer-1 .offer_feature li svg {
+  margin: 0 5px 2px 0;
+  font-size: 14px;
+  color: #1dbf73;
+}
+
+.offer-request-table table tbody tr td.col-offer-2 {
+  max-width: 200px;
+  white-space: normal;
+  padding-right: 15px;
+  word-wrap: break-word;
+}
+
+.offer-request-table table tbody tr td.col-offer-2 h4 {
+  color: #1dbf73;
+}
+
+.offer-request-table table tbody tr td.col-offer-2 .meta_details {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 15px;
+}
+
+.offer-request-table table tbody tr td.col-offer-2 .meta_details .meta_item {
+  margin-right: 15px;
+}
+
+.offer-request-table table tbody tr td.col-offer-2 .meta__tags li {
+  color: #777;
+  margin: 15px 7px 0 0;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.offer-request-table table tbody tr td.col-offer-3 {
+  width: 47px;
+  padding-right: 15px;
+}
+
+.offer-request-table table tbody tr td.col-offer-3 .profile__img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-size: contain;
+}
+/*# sourceMappingURL=BuyerRequest.css.map */

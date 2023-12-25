@@ -1,0 +1,122 @@
+.ordersTable .col-cell {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 16px 16px 16px 0;
+  color: #62646a;
+  border-top: 1px solid #e4e5e7;
+  border-bottom: 1px solid #e4e5e7;
+}
+
+.ordersTable .col-cell:first-of-type {
+  padding-left: 20px;
+}
+
+.ordersTable .colSelect {
+  width: 21px;
+  font-size: 18px;
+}
+
+.ordersTable .colBuyer {
+  white-space: normal;
+  min-width: 180px;
+  max-width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.ordersTable .colBuyer .buyerImage {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.ordersTable .colBuyer span {
+  margin-left: 15px;
+}
+
+.ordersTable .colBuyer .buyerRepeater {
+  position: absolute;
+  top: 31px;
+  color: #1dbf73;
+  font-weight: 800;
+  left: 25px;
+  font-size: 20px;
+}
+
+.ordersTable .colGig {
+  white-space: normal;
+  max-width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ordersTable .colGig a {
+  color: #62646a;
+  font-weight: 500;
+}
+
+.ordersTable .colGig a:hover {
+  color: #4e4ee7 !important;
+}
+
+.ordersTable .colDueOn {
+  max-width: 110px;
+  vertical-align: middle;
+}
+
+.ordersTable .colDeliveredAt {
+  max-width: 110px;
+  vertical-align: middle;
+}
+
+.ordersTable .colTotal {
+  max-width: 65px;
+  vertical-align: middle;
+}
+
+.ordersTable .colReview {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ordersTable .colReview .ReviewBox {
+  border: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.ordersTable .colReview .ReviewBox svg {
+  color: orange;
+}
+
+.ordersTable .colStatus {
+  width: 85px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ordersTable .colStatus span {
+  background-color: orange;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1px 10px;
+  margin: 0;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=Styles.css.map */

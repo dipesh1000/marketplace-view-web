@@ -1,0 +1,35 @@
+.creatableField {
+    font-size: 14px;
+    .css-yk16xz-control{
+        border-color: #e5e5e5!important;
+        min-height: 45px!important;
+        &:hover {
+            box-shadow: 0 0 0 .5px #e5e5e5;
+        }
+        &:focus {
+            box-shadow: 0 0 0 .5px #e5e5e5;
+        }
+        .css-g1d714-ValueContainer {
+            .css-1uccc91-singleValue {
+                opacity: .7;
+            }
+        }
+    }
+    .css-1pahdxg-control {
+        min-height: 45px!important;
+        border-color: transparent;
+        box-shadow: none;
+        border-color: #e5e5e5!important;
+        &:hover {
+            box-shadow: 0 0 0 .5px #e5e5e5;
+        }
+        &:focus {
+            box-shadow: 0 0 0 .5px #e5e5e5;
+        }
+        .css-g1d714-ValueContainer {
+            .css-1uccc91-singleValue {
+                opacity: .7;
+            }
+        }
+    }
+}

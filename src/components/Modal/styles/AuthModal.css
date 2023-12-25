@@ -1,0 +1,199 @@
+.modalwrapper {
+  padding: 0 36px 24px;
+}
+
+.modalwrapper .customContainer {
+  padding: 0 36px;
+}
+
+.modalwrapper .customContainer h2 {
+  color: #1dbf73;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.modalwrapper .customContainer p {
+  color: #62646a;
+}
+
+.modalwrapper .customContainer .authSocial {
+  width: 100%;
+  padding: 8px 30px 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.modalwrapper .customContainer .authApple {
+  background-color: #fff !important;
+  color: #62646a !important;
+  border: 1px solid #e4e5e7;
+}
+
+.modalwrapper .customContainer .authApple .appleLogoFa {
+  position: absolute;
+  left: 58px;
+  font-size: 19px;
+  margin-top: 4px;
+  color: #333;
+}
+
+.modalwrapper .customContainer .authFacebook {
+  font-weight: 600;
+  color: #fff;
+  background: #4267b2;
+  border: 1px solid #4267b2;
+}
+
+.modalwrapper .customContainer .btnConfimatation {
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #1dbf73 !important;
+  background: #1dbf73 !important;
+  margin: 30px 0;
+}
+
+.modalwrapper .customContainer .fbIconFa {
+  position: absolute;
+  left: 58px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.modalwrapper .customContainer .authGoogle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #62646a !important;
+  background-color: #fff;
+  border: 1px solid #e4e5e7;
+}
+
+.modalwrapper .customContainer .authGoogle img {
+  width: 25px;
+  height: 25px;
+}
+
+.modalwrapper .customContainer .authGoogle .buttonText {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 100%;
+}
+
+.modalwrapper .customContainer .loginDivider {
+  font-size: 1rem;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.modalwrapper .customContainer .loginDivider::before, .modalwrapper .customContainer .loginDivider::after {
+  display: inline-block;
+  content: "";
+  border-top: .1rem solid #e4e5e7;
+  width: 7.9rem;
+  margin: 0 1rem;
+  -webkit-transform: translateY(-0.25rem);
+          transform: translateY(-0.25rem);
+}
+
+.modalwrapper .customContainer .loginContinueBtn {
+  width: 100%;
+  border: 1px solid #1dbf73 !important;
+  color: #fff !important;
+  font-weight: 600;
+  background: #1dbf73 !important;
+}
+
+.modalwrapper .customContainer .loginRemember {
+  color: #b5b6ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.modalwrapper .customContainer .loginRemember a {
+  color: #4a73e8;
+}
+
+.modalwrapper .customContainer .loginRemember .forgotPassword {
+  color: #1dbf73;
+}
+
+.modalwrapper .customContainer .loginRemember .forgotPassword:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modalwrapper .customContainer .forgetForm {
+  margin-bottom: 20px;
+}
+
+.modalwrapper .customContainer .forgetForm button {
+  width: 100%;
+  border: 1px solid #1dbf73 !important;
+  color: #fff !important;
+  font-weight: 600;
+  background: #1dbf73 !important;
+}
+
+.modalwrapper .forgetFooter {
+  padding: .3em;
+}
+
+.modalwrapper .forgetFooter button {
+  font-weight: 600;
+  font-size: 16px !important;
+}
+
+.modalwrapper .modalTitle {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.modalwrapper .forgotTitle {
+  padding-bottom: 10px;
+}
+
+.modalwrapper .forgetSubTitle {
+  font-weight: 500;
+}
+
+.modalwrapper .modal-footer {
+  text-align: center;
+  color: #62646a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  line-height: 21px;
+  margin: .45rem;
+}
+
+.modalwrapper .modal-footer p {
+  font-weight: 400;
+}
+
+.modalwrapper .modal-footer button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #1dbf73;
+  margin: 0;
+  font-size: 14px;
+  padding-left: 1px;
+}
+
+.modalwrapper .modal-footer button:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=AuthModal.css.map */

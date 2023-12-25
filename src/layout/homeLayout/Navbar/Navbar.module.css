@@ -1,0 +1,215 @@
+/* .mainContainer {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 1160px) {
+  .mainContainer {
+      max-width: 1400px;
+      margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .mainContainer {
+      padding: 0 32px;
+      margin: 0;
+  }
+} */
+
+.navbar {
+  height: 60px;
+  background-color: aqua;
+  width: 100%;
+  padding: 1em 0;
+}
+.noBorder {
+  border-bottom: none !important;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  line-height: 60px;
+  justify-content: space-evenly;
+}
+.navBarOnScroll {
+  background-color: #fff;
+  /* padding: 1em 0!important; */
+  -webkit-transition: #fff 2s ease;
+  transition: #fff 2s ease;
+}
+
+.hide {
+  display: none !important;
+}
+.navTypo {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navTypoButton {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+  padding: 0 10px 3px 0 !important;
+  font-weight: 600 !important;
+  outline: none !important;
+}
+.navTypo:hover {
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: 600;
+}
+.navTypoButton:hover {
+  background-color: transparent;
+  padding: 0 10px 3px 0 !important;
+}
+.navTypoButton:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navTypoOnScroll {
+  color: #7d8088;
+  font-weight: 600;
+  padding: 5px;
+}
+.navTypoOnScroll:hover {
+  color: #1dbf73 !important;
+}
+.navTypoButtonOnScroll {
+  background-color: transparent !important;
+  border: none !important;
+  color: #62646a !important;
+  padding: 0 10px 3px 0 !important;
+  font-weight: 600 !important;
+  outline: none !important;
+}
+.navTypoButtonOnScroll:focus {
+  box-shadow: none !important;
+}
+
+.outlineGreen {
+  border: 1px solid #ffffff !important;
+  color: #fff !important;
+  padding: 0.1em 1em !important;
+  background: transparent !important;
+  font-weight: 600 !important;
+}
+.outlineGreen:hover {
+  border: 1px solid #1dbf73 !important;
+  color: #fff !important;
+  background: #1dbf73 !important;
+}
+.outlineGreenOnScroll {
+  border: 1px solid #1dbf73 !important;
+  color: #1dbf73 !important;
+  padding: 0.1em 1em !important;
+  background: transparent !important;
+  font-weight: 600 !important;
+}
+.outlineGreenOnScroll:hover {
+  border: 1px solid #1dbf73 !important;
+  color: #fff !important;
+  background: #1dbf73 !important;
+}
+
+.searchNav {
+  position: relative;
+}
+
+.searchDiv,
+.mainSearchDiv {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  top: 35px;
+  left: 0;
+  z-index: 99999;
+  box-shadow: 0 3px 13px 0 rgba(60, 60, 60, 0.4);
+  border-radius: 3px;
+  border: 1px solid #efeff0;
+  padding: 10px;
+  color: #7a7d85;
+  cursor: default;
+  padding: 20px;
+}
+
+.mainSearchDiv {
+  top: 44.4px;
+  z-index: 100;
+}
+
+.searchDiv ul,
+.mainSearchDiv ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.searchDiv ul li,
+.mainSearchDiv ul li {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.searchDiv ul li span,
+.mainSearchDiv ul li span {
+  padding-left: 10px;
+}
+
+.searchDiv ul li li,
+.mainSearchDiv ul li li {
+  display: block;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.searchDiv ul li li:hover,
+.mainSearchDiv ul li li:hover {
+  background-color: #efeff0;
+}
+
+.searchInputNav {
+  border-radius: 3px 0 0 3px !important;
+  flex: 3;
+  padding: 1.1em 1.16em 1.25em 2em !important;
+}
+.searchButtonNav {
+  border-radius: 0 3px 3px 0 !important;
+  font-weight: 600 !important;
+  background-color: #1dbf73 !important;
+  border: 1px solid #1dbf73 !important;
+  flex: 1;
+  /* font-size: .976em; */
+  padding: 0.33em 0 0.4em 0 !important;
+}
+.searchButtonNav a {
+  color: #fff;
+  padding: 0.5rem 1.25rem !important;
+}
+.searchButtonNav a:hover {
+  color: #fff !important;
+}
+.searchButtonNav:hover {
+  background-color: #1dbf73 !important;
+  border: 1px solid #1dbf73 !important;
+  color: #fff;
+}
+.search_icon {
+  position: absolute;
+  color: #aaa;
+  font-size: 19px;
+  margin-left: 6px;
+}
+.cancel_icon {
+  position: absolute;
+  color: #aaa;
+  font-size: 14px;
+  right: 95px;
+  cursor: pointer;
+}
+.cancel_icon:hover {
+  color: rgb(105, 105, 105);
+}

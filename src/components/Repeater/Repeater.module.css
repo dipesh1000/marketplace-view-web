@@ -1,0 +1,37 @@
+.selectorWrapper {
+    border: .5px solid #e5e5e5;
+    border-radius: 3px;
+    padding: .6em;
+    margin-bottom: 10px;
+}
+.RepeaterBtnCancel {
+    color: #b2b2b2;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.RepeaterBtnCancel:hover {
+    cursor: pointer;
+}
+.RepeaterBtnAdd {
+    color: #b2b2b2;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.RepeaterBtnAdd:hover {
+    cursor: pointer;
+}
+.errorMsgDiv {
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+.errorMsg {
+    font-weight: 500;
+}

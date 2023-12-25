@@ -1,0 +1,55 @@
+.stepsNav {
+  padding: 13px 35px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stepsNav .stepsNav_inner_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stepsNav .stepsNav_inner_one div {
+  padding-right: 20px;
+  color: #999999;
+}
+
+.stepsNav .stepsNav_inner_one div span {
+  padding: 0.23em 0.68em;
+  font-size: 14px;
+  color: #fff;
+  height: 20px;
+  background-color: #c5c6c9;
+  font-weight: 500;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.stepsNav .stepsNav_inner_one div span.span-active {
+  padding: 0.23em 0.68em;
+  font-size: 14px;
+  height: 20px;
+  color: #fff;
+  background: #1dbf73;
+  font-weight: 500;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.stepsNav .stepsNav_inner_one div.div-active {
+  color: #1dbf73;
+}
+/*# sourceMappingURL=style.css.map */

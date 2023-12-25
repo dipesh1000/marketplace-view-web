@@ -1,0 +1,2 @@
+export const OPEN_TOASTER = "OPEN_TOASTER";
+export const CLOSE_TOASTER = "CLOSE_TOASTER";

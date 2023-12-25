@@ -1,0 +1,46 @@
+/*Styles for Privacy Policy */
+.privacy-policy {
+  max-width: 828px;
+  margin: 2rem auto;
+  ul {
+    display: block;
+    list-style: disc;
+    padding: 0 1.5rem;
+  }
+  .privacy-policy-container {
+    margin: 0 2rem;
+  }
+}
+
+/*Styles for terms & servcies */
+.terms-services {
+  max-width: 828px;
+  margin: 2rem auto;
+  ul {
+    display: block;
+    list-style: disc;
+    padding: 0 1.5rem;
+  }
+  .terms-services-container {
+    margin: 0 2rem;
+  }
+}
+
+/*Styles for Intellectual Proclaim */
+.intellectual-proclaim {
+  padding: 30px 0 100px;
+  background: #f7f7f7;
+  ul {
+    display: block;
+    list-style: disc;
+    padding: 0 1.5rem;
+  }
+  .intellectual-proclaim-container {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    width: 988px;
+  }
+}

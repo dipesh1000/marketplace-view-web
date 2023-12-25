@@ -1,0 +1,118 @@
+$font-color: #62646a;
+$primary-color: #1dbf73;
+$heading-color: #404145;
+$light-font-color: #b2b2b2;
+$border-color: #dddddd;
+$timer-bg-color: #fafafa;
+$warning-color: orange;
+$warning-text: #b37746;
+$icon-color: #00668c;
+$btn-hover: #2eaa70;
+.table-header {
+  .day-filter {
+    .dropdown {
+      .dropdown-menu {
+        width: 98%;
+      }
+    }
+  }
+}
+.ordersTable {
+  .col-cell {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px 16px 16px 0;
+    color: #62646a;
+    border-top: 1px solid #e4e5e7;
+    border-bottom: 1px solid #e4e5e7;
+    &:first-of-type {
+      padding-left: 20px;
+    }
+  }
+  .colSelect {
+    width: 21px;
+    font-size: 18px;
+    // vertical-align: middle;
+    // input[type=checkbox] {
+    //     display: none;
+    // }
+  }
+  .colBuyer {
+    white-space: normal;
+    min-width: 180px;
+    max-width: 260px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .buyerImage {
+      width: 40px;
+      height: 40px;
+      background-size: contain;
+      border-radius: 50%;
+    }
+    span {
+      margin-left: 15px;
+    }
+    .buyerRepeater {
+      position: absolute;
+      top: 31px;
+      color: $primary-color;
+      font-weight: 800;
+      left: 25px;
+      font-size: 20px;
+    }
+  }
+  .colGig {
+    white-space: normal;
+    max-width: 300px;
+    box-sizing: border-box;
+    a {
+      color: #62646a;
+      font-weight: 500;
+      &:hover {
+        color: rgb(78, 78, 231) !important;
+      }
+    }
+  }
+  .colDueOn {
+    max-width: 110px;
+    vertical-align: middle;
+  }
+  .colDeliveredAt {
+    max-width: 110px;
+    vertical-align: middle;
+  }
+  .colTotal {
+    max-width: 65px;
+    vertical-align: middle;
+  }
+  .colReview {
+    text-align: center;
+    vertical-align: middle;
+    .ReviewBox {
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 4px;
+      border-radius: 4px;
+      svg {
+        color: orange;
+      }
+    }
+  }
+  .colStatus {
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    span {
+      background-color: orange;
+      color: #333;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 1px 10px;
+      margin: 0;
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,387 @@
+@charset "UTF-8";
+.requirement {
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.requirement .custom-btn {
+  font-weight: 600;
+  text-transform: capitalize;
+  text-shadow: none;
+  line-height: 45px;
+  padding: 0px 35px;
+  border-radius: 3px;
+}
+
+.requirement .cancel {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5f5));
+  background: linear-gradient(#fff, #f5f5f5);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #303030 !important;
+}
+
+.requirement .cancel:hover {
+  text-decoration: none;
+  color: #303030 !important;
+}
+
+.requirement .successBtn {
+  background-color: #50c074;
+  color: white;
+  border: none;
+}
+
+.requirement .successBtn:hover {
+  background-color: #5fce82;
+}
+
+.requirement-wrapper {
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #dadbdd;
+  padding: 30px;
+}
+
+.requirement-wrapper input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px !important;
+  left: -75px !important;
+  right: 0px !important;
+  margin: 0px auto;
+  margin-top: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #c5c4c4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  border-radius: 2px;
+}
+
+.requirement-wrapper input[type="checkbox"]:checked:after {
+  content: "✔";
+  color: #555657;
+}
+
+.requirement-wrapper input[type="checkbox"]:focus {
+  outline: none;
+}
+
+.requirement-wrapper textarea {
+  height: 150px !important;
+  resize: none;
+}
+
+.requirement-wrapper textarea::-webkit-input-placeholder {
+  color: #c0bebe !important;
+  font-weight: 400;
+}
+
+.requirement-wrapper textarea:-ms-input-placeholder {
+  color: #c0bebe !important;
+  font-weight: 400;
+}
+
+.requirement-wrapper textarea::-ms-input-placeholder {
+  color: #c0bebe !important;
+  font-weight: 400;
+}
+
+.requirement-wrapper textarea::placeholder {
+  color: #c0bebe !important;
+  font-weight: 400;
+}
+
+.requirement-wrapper .textarea-wrap {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.requirement-wrapper .textarea-wrap .counter {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.requirement-wrapper .title {
+  font-size: 18px;
+  line-height: 40px;
+  color: #404145;
+  font-weight: 700;
+}
+
+.requirement-wrapper .subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  color: #95979d;
+  font-weight: 400;
+}
+
+.requirement-wrapper .title-break {
+  font-size: 12px;
+  line-height: 12px;
+  color: #62646a;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+
+.requirement-wrapper .title-break::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  border-top: 1px solid #dedede;
+  width: 38%;
+  top: 7px;
+}
+
+.requirement-wrapper .title-break::after {
+  content: "";
+  position: absolute;
+  left: auto;
+  right: 0;
+  border-top: 1px solid #dedede;
+  width: 38%;
+  top: 7px;
+}
+
+.requirement-wrapper .question-btn-wrapper .question-btn {
+  border: 1px solid #4a73e8;
+  display: inline-block;
+  color: #4a73e8;
+  line-height: 42px;
+  border-radius: 4px;
+  padding: 0px 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.requirement-wrapper .question-btn-wrapper .question-btn i {
+  font-size: 12px;
+}
+
+.requirement-wrapper .question-btn-wrapper .question-btn:hover {
+  background: #3f63c8;
+  color: #fff;
+}
+
+.requirement-wrapper .error-text {
+  color: #e22626;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.requirement-wrapper .add-question-wrapper {
+  background-color: #f5f5f5;
+  border: 1px solid #dadbdd;
+  margin: 15px auto;
+  padding: 24px 20px 20px;
+}
+
+.requirement-wrapper .add-question-wrapper .title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.requirement-wrapper .add-question-wrapper .add-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #404145;
+  font-weight: 600;
+}
+
+.requirement-wrapper .add-question-wrapper .select-wrap {
+  width: 250px;
+  margin: 12px 0px;
+}
+
+.requirement-wrapper .add-question-wrapper .button-wrap {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.requirement-wrapper .add-question-wrapper .button-wrap .custom-btn {
+  line-height: 42px;
+  padding: 0px 25px;
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.requirement-wrapper .add-question-wrapper .button-wrap .cancel {
+  background: none;
+  color: gray !important;
+  border: 1px solid #424242;
+}
+
+.requirement-wrapper .add-question-wrapper .button-wrap .cancel:hover {
+  background: gray;
+  color: white !important;
+  border: 1px solid gray;
+}
+
+.requirement-wrapper .view-list-wrapper ul {
+  display: block;
+}
+
+.requirement-wrapper .view-list-wrapper ul li {
+  border: 1px solid #d8d7d7;
+  padding: 20px;
+  -webkit-box-shadow: 0 2px 4px #efefef;
+          box-shadow: 0 2px 4px #efefef;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .title-wrap .title {
+  font-size: 11px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #b5b6ba;
+  font-weight: 700;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .title-wrap .title i {
+  margin-right: 5px;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .title-wrap .action-filter .dropdown {
+  width: auto;
+  margin-right: -10px;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .title-wrap .action-filter .dropdown button {
+  border: none !important;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .title-wrap .action-filter .dropdown button i {
+  font-size: 12px;
+}
+
+.requirement-wrapper .view-list-wrapper ul li .question {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #404145;
+}
+
+.requirement-wrapper .view-list-wrapper .option-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.requirement-wrapper .view-list-wrapper .option-list span {
+  margin-right: 6px;
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+  position: relative;
+}
+
+.requirement-wrapper .view-list-wrapper .option-list span::after {
+  content: ",";
+}
+
+.requirement-wrapper .view-list-wrapper .option-list span:last-child::after {
+  content: "";
+}
+
+.requirement-wrapper .multiple-top-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.requirement-wrapper .multiple-top-wrap .checkbox-wrap {
+  margin-top: 15px;
+}
+
+.requirement-wrapper .multiple-top-wrap input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0;
+  left: -18px !important;
+  top: 5px;
+  right: 0px !important;
+}
+
+.requirement-wrapper .multiple-wrapper input[type="text"] {
+  margin-bottom: 12px;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #ced4da;
+  padding: 0px 10px;
+  width: 100%;
+  border-radius: 4px !important;
+}
+
+.requirement-wrapper .multiple-wrapper input[type="text"]:focus-visible {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.requirement-wrapper .multiple-wrapper input[type="text"]::-webkit-input-placeholder {
+  color: #ccc8c8 !important;
+}
+
+.requirement-wrapper .multiple-wrapper input[type="text"]:-ms-input-placeholder {
+  color: #ccc8c8 !important;
+}
+
+.requirement-wrapper .multiple-wrapper input[type="text"]::-ms-input-placeholder {
+  color: #ccc8c8 !important;
+}
+
+.requirement-wrapper .multiple-wrapper input[type="text"]::placeholder {
+  color: #ccc8c8 !important;
+}
+
+.requirement-wrapper .multiple-wrapper .input-wrapper {
+  position: relative;
+}
+
+.requirement-wrapper .multiple-wrapper .input-wrapper span {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+
+.requirement-wrapper .multiple-wrapper .input-wrapper:hover span {
+  display: block;
+}
+/*# sourceMappingURL=GigRequirement.css.map */

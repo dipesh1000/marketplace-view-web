@@ -1,0 +1,339 @@
+@charset "UTF-8";
+.extend-container .question {
+  margin: 15px 0px;
+  font-weight: 600;
+}
+
+.extend-container .extra-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0px 30px 0px;
+}
+
+.extend-container .extra-info .expected span {
+  font-weight: 600;
+}
+
+.extend-container .select-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+}
+
+.extend-container .select-wrapper select {
+  min-width: 200px;
+}
+
+.extend-container .select-wrapper span {
+  margin-left: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #5f5d5d;
+}
+
+.extend-container .title-wrapper-inline {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extend-container .title-wrapper-inline .inline-title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.extend-container .title-wrapper-inline .extra-title {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #404145;
+}
+
+.extend-container select {
+  width: 200px;
+}
+
+.extend-container .add-gig-extra {
+  margin-top: 15px;
+}
+
+.extend-container .add-gig-extra-hidden {
+  border: 1px solid #e0e0e0;
+  padding: 12px 0px;
+  background: #fff;
+  border-top: none;
+}
+
+.extend-container .add-gig-extra-hidden .form-group {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.extend-container .add-gig-extra-hidden textarea {
+  width: 100%;
+}
+
+.extend-container .add-gig-extra-hidden .first-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 8px 15px;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px !important;
+  left: 0px !important;
+  right: 0px !important;
+  margin-right: 15px;
+  margin-top: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #c5c4c4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  border-radius: 2px;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="checkbox"]:checked:after {
+  content: "✔";
+  color: #555657;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="checkbox"]:focus {
+  outline: none;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="text"] {
+  padding-bottom: 12px;
+  border-radius: 3px;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="text"]::-webkit-input-placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="text"]:-ms-input-placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="text"]::-ms-input-placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .first-line input[type="text"]::placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .first-line .title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 130px;
+}
+
+.extend-container .add-gig-extra-hidden .first-line .title-wrapper .extra-title {
+  margin-left: 10px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #404145;
+}
+
+.extend-container .add-gig-extra-hidden .first-line .counter {
+  font-size: 14px;
+  color: #404145;
+  line-height: 30px;
+  padding-left: 10px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.extend-container .add-gig-extra-hidden .second-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #fff;
+  padding: 8px 15px 8px 46px;
+}
+
+.extend-container .add-gig-extra-hidden .second-line input[type="text"] {
+  padding-bottom: 12px;
+  text-indent: 36px;
+  border-radius: 3px;
+}
+
+.extend-container .add-gig-extra-hidden .second-line input[type="text"]::-webkit-input-placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .second-line input[type="text"]:-ms-input-placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .second-line input[type="text"]::-ms-input-placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .second-line input[type="text"]::placeholder {
+  color: #a5a4a4 !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.extend-container .add-gig-extra-hidden .second-line .title {
+  font-size: 13px;
+  line-height: 24px;
+  color: #404145;
+  width: 100px;
+}
+
+.extend-container .add-gig-extra-hidden .second-line .description-input {
+  width: calc(100% - 100px);
+  position: relative;
+}
+
+.extend-container .add-gig-extra-hidden .second-line .description-input::after {
+  top: 0;
+  position: absolute;
+  content: "I will";
+  left: 12px;
+  font-size: 14px;
+  line-height: 36px;
+  color: gray;
+}
+
+.extend-container .add-gig-extra-hidden .third-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #fff;
+  padding: 8px 15px 8px 46px;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .title {
+  font-size: 13px;
+  line-height: 24px;
+  color: #404145;
+  width: 100px;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline {
+  background: transparent;
+  width: 75%;
+  display: block;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail .form-group {
+  margin-bottom: 0px;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail .form-control {
+  padding: 1px 4px 2px 4px;
+  height: 32px;
+  font-size: 14px;
+  width: 110px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail .second-label {
+  width: 150px;
+  text-align: center;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail .third-label {
+  width: 20px;
+  padding-left: 8px;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail .input-group {
+  width: auto !important;
+}
+
+.extend-container .add-gig-extra-hidden .third-line .extra-list-inline .extra-detail input[type="number"] {
+  width: 120px;
+}
+/*# sourceMappingURL=style.css.map */

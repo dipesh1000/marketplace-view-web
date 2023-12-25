@@ -1,0 +1,154 @@
+/* .mainContainer {
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (min-width: 1160px) {
+    .mainContainer {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .mainContainer {
+        padding: 0 32px;
+        margin: 0;
+    }
+} */
+.mainSearchWrapper {
+	height: 680px;
+	position: absolute;
+	top: 35%;
+	width: 650px;
+}
+
+@media (min-width: 1440px) {
+	.mainSearchWrapper {
+		top: 25%;
+	}
+}
+
+.mainSearchContainer {
+	width: 100%;
+}
+.mainSearchContainer h1 {
+	color: #fff;
+	font-weight: 900 !important;
+	font-size: 48px;
+	line-height: 1.3;
+	padding-bottom: 23px;
+}
+
+.popularTags ul {
+	display: flex;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 15px;
+}
+.popularTags ul li:nth-child(n + 2) {
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 0 0.6em 0.3em 0.6em;
+	margin-left: 15px;
+	color: #ffffff;
+}
+.formGroup {
+	display: flex;
+}
+.searchInput {
+	border-radius: 2px 0 0 2px !important;
+	flex: 5 1;
+	font-size: 17px !important;
+	padding: 10px 15px 10px 45px !important;
+}
+.formGroup .searchIcon {
+	position: absolute;
+	color: #aaa;
+	font-size: 19px;
+	margin-top: 13px;
+	margin-left: 17px;
+}
+.formGroup .cancelIcon {
+	position: absolute;
+	color: #aaa;
+	font-size: 19px;
+	margin-top: 13px;
+	right: 130px;
+	cursor: pointer;
+}
+.formGroup .cancelIcon:hover {
+	color: rgb(105, 105, 105);
+}
+.searchButton {
+	border-radius: 0 2px 2px 0 !important;
+	flex: 1;
+	font-weight: 600 !important;
+	background-color: #1dbf73 !important;
+	border: 1px solid #1dbf73 !important;
+}
+.searchButton a,
+.searchButton a:hover {
+	color: #fff !important;
+}
+.searchButton:hover {
+	background-color: #1dbf73 !important;
+	border: 1px solid #1dbf73 !important;
+	color: #fff;
+}
+
+.formGroup input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari/Edge */
+	color: #7a7d85;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.formGroup input::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #7a7d85;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.formGroup input:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #7a7d85;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+@media (max-width: 600px) {
+	.mainSearchWrapper {
+		position: absolute;
+		top: 35%;
+		width: 100%;
+	}
+	.mainSearchContainer {
+		width: 100%;
+	}
+	.formGroup {
+		display: block;
+		width: 100%;
+	}
+	.popularTags {
+		display: none;
+	}
+	.searchInput {
+		border-radius: 2px 0 0 2px;
+		font-size: 17px;
+		display: block;
+		padding: 23px;
+	}
+	.searchButton {
+		width: 100%;
+		display: block;
+		border-radius: 0 2px 2px 0;
+		font-weight: 600;
+		background-color: #1dbf73 !important;
+		border: 1px solid #1dbf73;
+	}
+	.searchButton:hover {
+		background-color: #1dbf73;
+		border: 1px solid #1dbf73;
+		color: #fff;
+	}
+}

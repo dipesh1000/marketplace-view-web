@@ -1,0 +1,11 @@
+dockerfile
+#node_modules
+npm-debug.log
+.dockerignore
+.DS_Store
+.gitattributes
+.gitignore
+#.env
+.git
+.gitlab-ci.yml
+README.md

@@ -1,0 +1,92 @@
+.contact-details {
+    th {
+        padding: 0 15px 0 0;
+    }
+    td {
+        padding: 15px 15px 15px 0;
+    }
+    thead {
+        background-color: transparent;
+        .colDate {
+            width: 110px!important;
+        }
+        .colBuyer {
+            width: 40px;
+        }
+        
+    }
+    tbody {
+        tr {
+            td {
+                .hideOption {
+                    display: block;
+                    font-size: 12px;
+                    a {
+                        display: inline-block;
+                        color: #4a73e8;
+                        margin-top: 12px; 
+                        &:hover {
+                            color: #4a73e8!important;
+                            text-decoration: underline!important;
+                        }
+                    }
+                    button {
+                        background-color: #1dbf73;
+                        color: #fff;
+                        border: 1px solid #1dbf73;
+                        font-weight: 900;
+                        padding: .5em 0;
+                        width: 100%;
+                        margin-top: 5px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+        .colProfile {
+            width: 40px;
+            padding-left: 20px;
+            padding-right: 15px;
+            height: 95px;
+            vertical-align: middle;
+            .buyerImage {
+                width: 40px;
+                height: 40px;
+                background-color: #ddd;
+                background-size: cover;
+                background-position: center;
+                border-radius: 50%;
+            }
+        }
+        .colUserName {
+            max-width: 200px;
+            padding-right: 20px;
+            vertical-align: middle;
+            color: #4a73e8;
+            .userLinks {
+                padding-top: 20px;
+                font-size: 14px;
+                line-height: 14px;
+                font-size: 12px;
+                color: rgb(128, 124, 124);
+                a {
+                    font-size: 14px;
+                    color: #1dbf73;
+                }
+            }
+        }
+        .colCompleteOrder {
+            max-width: 200px;
+            vertical-align: middle;
+        }
+        .colOrderDate {
+            width: 110px;
+            vertical-align: middle;
+        }
+        .colActionItem {
+            width: 113px;
+            padding-right: 15px;
+            vertical-align: middle;
+        }
+    }
+}

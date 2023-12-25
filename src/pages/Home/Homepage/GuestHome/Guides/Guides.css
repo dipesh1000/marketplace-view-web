@@ -1,0 +1,75 @@
+ .guides{
+    padding: 60px 0px;
+
+}
+
+.guides .title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-bottom: 25px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.guides .title h2{
+    font-size: 28px;
+}
+
+.guides .title a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.guides .title a i{
+font-size: 13px;
+padding-left: 3px;
+}
+
+.guides .box-wrapper{
+width: 100%;
+display: block;
+}
+
+.guides .box-wrapper .image{
+overflow: hidden;
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+.guides .box-wrapper .image img{
+-o-object-fit: cover;
+   object-fit: cover;
+height: 100%;
+width: 100%;
+}
+
+.guides .box-wrapper .image img:hover{
+    opacity: .85;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.guides .box-wrapper .text{
+
+}
+
+.guides .box-wrapper .text h5{
+font-size: 18px;
+line-height: 22px;
+}
+
+.guides .box-wrapper .text p{
+font-size: 16px;
+font-weight: 400;
+color: #62646a;
+line-height: 22px;
+margin-bottom: 0px;
+text-align: left;
+}

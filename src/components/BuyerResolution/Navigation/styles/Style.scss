@@ -1,0 +1,196 @@
+.orderHeaderRow {
+    height: 80px;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+    box-shadow: 0px 4px 6px #eae8e8;
+    .container {
+        height: 100%;
+        .steps {
+            color: #b5b6ba;
+            .nav-link {
+                &.active {
+                    color: #1dbf73;
+                    .stepLevel {
+                        background-color: #1dbf73; 
+                    }
+                    .stepText {
+                        color: #1dbf73;
+                    }
+                }
+                .stepLevel {
+                    font-size: 16px;
+                    margin-right: 8px;
+                    height: 25px;
+                    display: inline-flex;
+                    width: 25px;
+                    justify-content: center;
+                    background-color: #c5c6c9;
+                    border-radius: 50%;
+                    color: #fff;
+                    text-align: center;
+                }
+                .stepText {
+                    font-weight: 600;
+                    color: #b5b6ba;
+                }
+            }
+            .stepArrow {
+                color: #222325;
+                font-size: 24px;
+                font-weight: 400;
+                margin: 0 16px;            
+            }
+
+        }
+    }
+    
+}
+
+.resolution-wrapper{
+   .resolution-header{
+    font-size: 36px;
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+  }
+  .resolution-header-sub{
+    font-size: 14px;
+    color: gray;
+    padding: 10px 0 25px;
+    border-bottom: 1px solid rgb(172, 171, 171);
+  }
+   .resolution-footer{
+    margin-top: 30px;
+    padding: 30px 0px;
+    border-top: 1px solid rgb(204, 203, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .back{
+      cursor: pointer;
+    }
+    a{
+      color: #28a745;
+    }
+    button{
+      background-color: #1dbf73;
+      color: white;
+      border: none;
+      padding: 12px 40px;
+      border-radius: 4px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+   .OrdersDetail {
+    .OrderDetailsContainer {
+      margin: 16px auto;
+      border-bottom: none;
+      border-radius: 4px 4px 0 0;
+      border-color: #f4f4f4 #e4e5e7;
+      border-style: solid;
+      border-width: 1px;
+      background-color: #fff;
+      border-radius: 4px;
+      .AsideTop {
+        background-color: #fafafa;
+        padding: 16px 24px;
+        border-bottom: 1px solid #e4e5e7;
+        .AsideMain {
+          display: flex;
+          .imgBox {
+            width: 100px;
+            max-height: 62px;
+            margin-right: 15px;
+            img {
+              width: 100%;
+              // object-fit: content;
+              border-radius: 4px;
+            }
+          }
+          .sideHeadingText {
+            flex: 1;
+            p {
+              margin-bottom: 0;
+              font-weight: 600;
+              color: #62646a;
+              text-align: left;
+              text-transform: capitalize;
+              margin-bottom: 4px;
+            }
+          }
+        }
+        .AsideSec {
+          color: #62646a;
+          .checkIcon {
+            margin-right: 15px;
+            &.active {
+              color: #1dbf73;
+            }
+          }
+          .AsideSecPrice {
+            padding: 16px 0;
+            display: flex;
+            justify-content: space-between;
+            color: #62646a;
+            font-weight: 500;
+          }
+        }
+      }
+      .AsideMiddile {
+        padding: 16px 24px;
+        color: #62646a;
+        border-bottom: 1px solid #e4e5e7;
+      }
+      .AsideButton {
+        color: #62646a;
+        padding: 16px 24px;
+        .badge {
+          color: #fff;
+          padding: 5px 15px 0 15px;
+          border-radius: 2px;
+          text-transform: uppercase;
+        }
+        .serviceFee {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 12px;
+          font-size: 14px;
+          font-weight: 500;
+          p {
+            margin-bottom: 0;
+          }
+        }
+        .textBold {
+          font-weight: 700;
+          font-size: 18px;
+          margin-bottom: 4px;
+        }
+        .ConfirmSection {
+          text-align: center;
+          button {
+            background: #1dbf73;
+            background-color: #1dbf73;
+            border: 1px solid #1dbf73;
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700;
+            border-radius: 3px;
+            margin-bottom: 10px;
+          }
+          span {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.8;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

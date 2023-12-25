@@ -1,0 +1,293 @@
+.gig-container {
+    .gig-header {
+        .search-btn {
+            justify-self: flex-end;
+            text-align: right;
+            .search-field {
+                position: relative;
+                input[type="text"] {
+                    border-color: #ddd;
+                    border-style: solid;
+                    border-width: 0 0 1px 0;
+                    background-color: transparent;
+                    width: 80%;
+                    font-size: 14px;
+                    padding: 7px 3px;
+                    font-weight: 400;
+                    transition: border-color .2s,width .2s;
+                    &:focus {
+                        outline: none;
+                        width: 100%;
+                        border-color: #1dbf73;
+                    }
+                }
+                button {
+                    position: absolute;
+                    right: 0;
+                    border: none;
+                    top: 4px;   
+                    color: #ddd;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .request-counter {
+        .nav-item {
+            display: flex;
+            margin-right: 15px;
+            span {
+                background-color: #c2c2c2;
+                color: #fff;
+                font-size: 14px;
+                height: 26px;
+                min-width: 26px;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 50%;
+                padding: 0em .3em;
+            }
+        }
+        .nav-link.active {
+            &::after {
+                bottom: -22px!important;
+            }
+        }
+        .left-order-level {
+            font-size: 14px;
+            color: #777777;
+            svg {
+                font-size: 18px;
+                margin-right: 5px;
+                color: #1dbf73;
+            }
+        }
+    }
+    .table-header {
+        padding: 15px 15px 15px 15px;
+        .day-filter {
+            button {
+                height: 42px;
+                font-size: 15px;            
+            }
+        }
+    }
+    
+}
+.buyer-request-table {
+    th {
+        padding: 0 15px 0 0;
+    }
+    td {
+        padding: 15px 15px 15px 0;
+    }
+    thead {
+        background-color: transparent;
+        .colDate {
+            width: 110px!important;
+        }
+        .colBuyer {
+            width: 40px;
+        }
+    }
+    tbody {
+        tr {
+            td {
+                .hideOption {
+                    display: none;
+                }
+            }
+            &:hover {
+                td {
+                    background-color: #f4f4f4;
+                    .hideOption {
+                        display: block;
+                        font-size: 12px;
+                        a {
+                            display: inline-block;
+                            color: #4a73e8;
+                            cursor: pointer;
+                            margin-top: 12px; 
+                            &:hover {
+                                color: #4a73e8!important;
+                                text-decoration: underline!important;
+                            }
+                        }
+                        button {
+                            background-color: #1dbf73;
+                            color: #fff;
+                            border: 1px solid #1dbf73;
+                            font-weight: 900;
+                            padding: .5em 0;
+                            width: 100%;
+                            margin-top: 5px;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .colDate {
+            width: 110px;
+            padding-left: 20px;
+            padding-right: 15px;
+        }
+        .colBuyer {
+            width: 40px;
+            padding-right: 20px;
+            height: 95px;
+            .buyerImage {
+                width: 40px;
+                height: 40px;
+                background-color: #ddd;
+                background-size: cover;
+                background-position: center;
+                border-radius: 50%;
+            }
+        }
+        .colRequest {
+            .text_wrap {
+                max-width: 484px;
+                a {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #777;
+                    &:hover {
+                        color: #4a73e8!important;
+                        text-decoration: underline!important;
+                    }
+                }
+            }
+            .tags {
+                li {
+                    background-color: #fff;
+                    color: #777;
+                    border: 1px solid #ddd;
+                    font-size: 12px;
+                    padding: 4px 8px;
+                    margin: 15px 7px 0 0;
+                    border-radius: 3px;
+                }
+            }
+        }
+        .colOffers {
+            width: 30px;
+        }
+        .colDuration {
+            width: 113px;
+        }
+        .colBudget {
+            width: 113px;
+            padding-right: 20px;
+        }
+    }
+}
+.offer-request-table {
+    .file-list{
+        a{
+            color: #1dbf73;
+            display: block;
+            margin-bottom: 5px;
+            i{
+                margin-right: 5px;
+            }
+        }
+    }
+    table {
+        td {
+            padding: 15px 15px 15px 0;
+            text-align: left;
+            vertical-align: top;
+        }
+        td:first-child {
+            text-align: left;
+            padding-left: 20px;
+        }
+        td:last-child {
+            padding-right: 20px;
+        }
+        thead {
+            background: #fff;
+            th {
+                padding-left: 0;
+            }
+            th:first-child {
+                text-align: left;
+                padding-left: 20px;
+            }
+            th:last-child {
+                text-align: left;
+                padding-right: 20px;
+            }
+        }
+        tbody {
+            tr {
+                td{
+                    text-align: left;
+                    transition: background-color .1s;
+                    h4 {
+                        margin-top: -5px;
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
+                    &.col-offer-1 {
+                        max-width: 300px;
+                        white-space: normal;
+                        padding-right: 15px;
+                        .offer_feature {
+                            margin: 10px 0;
+                            li {
+                                color: #999;
+                                margin-right: 15px;
+                                svg {
+                                    margin: 0 5px 2px 0;
+                                    font-size: 14px;
+                                    color: #1dbf73;
+                                }
+                            }
+                        }
+                    }
+                    &.col-offer-2 {
+                        max-width: 200px;
+                        white-space: normal;
+                        padding-right: 15px;
+                        word-wrap: break-word;
+                        h4 {
+                            color: #1dbf73;
+                        }
+                        .meta_details {
+                            margin: 10px 0;
+                            display: flex;
+                            margin-right: 15px;
+                            .meta_item{
+                                margin-right: 15px;
+                            }
+                        }
+                        .meta__tags {
+                            li {
+                                color: #777;
+                                margin: 15px 7px 0 0;
+                                padding: 4px 8px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                background-color: #fff;
+                                border: 1px solid #ddd;
+                                border-radius: 3px;
+                            }
+                        }
+                    }
+                    &.col-offer-3 {
+                        width: 47px;
+                        padding-right: 15px;
+                        .profile__img {
+                            height: 25px;
+                            width: 25px;
+                            border-radius: 50%;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

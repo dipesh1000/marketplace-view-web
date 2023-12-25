@@ -1,0 +1,41 @@
+.pageNotFound {
+    .notfoundcontent {
+        padding-top: 100px;
+        padding-left: 100px;
+        h1, p {
+            color: #00A859;
+        }
+        span {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: justify;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .goBack_btn_container {
+            margin-top: 20px;
+            background-color: transparent;
+            border: 1px solid #BFBFBF;
+            text-align: center;
+            padding: .4em 0;
+            width: 131px;
+            .goBack_btn {
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                color: rgba(0, 0, 0, 0.6);
+            }
+            &:hover {
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+    }
+    .image_container {
+        width: 90%;
+        margin-bottom: 60px;
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,438 @@
+.SubmitRequirementsWrapper {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.SubmitRequirementsWrapper .MainContent {
+  margin-top: 16px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card {
+  border: 1px solid #efeff0;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-header {
+  color: #404145;
+  padding: 16px;
+  font-size: 16px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #efeff0;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-header.requirment-card {
+  margin: 0.5em 1em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body {
+  padding: 30px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .FormTitleContent {
+  color: #626a6b;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .card-text {
+  color: #62646a;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .card-text span {
+  color: #1dbf73;
+  margin-left: 15px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .requirement-attachment {
+  width: 100%;
+  margin-left: 20px;
+  display: inline-block;
+  margin-block: 2rem;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .requirement-checkbox {
+  margin-right: 20px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .question {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .TextArea {
+  border: 0.9px solid #e5e5e5 !important;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .TextArea:focus {
+  border: 0.9px solid green !important;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .TextArea textarea {
+  border: 1px solid transparent !important;
+  font-size: 14px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .TextArea .TextAreaFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  padding: 3px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #62646a;
+  font-size: 14px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .TextArea .TextAreaFooter .AttachementIcon {
+  font-size: 21px;
+  padding: 0 0 5px 0;
+  background-color: transparent;
+  color: #62646a;
+  border: none;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CheckboxInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CheckboxInput label {
+  margin-left: 10px;
+  margin-top: -2px;
+  color: #626a6b;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CheckboxInput label b {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .checkbox-wrap {
+  color: #626a6b;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-bottom: 0.5px solid #bababa;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .checkbox-wrap:last-child {
+  border-bottom: 0.5px solid transparent;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .checkbox-wrap label {
+  margin-left: 0px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .checkbox-wrap label:hover {
+  cursor: pointer;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .checkbox-wrap:hover {
+  border-color: transparent transparent #bababa transparent;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .checkbox-wrap:hover:last-child {
+  border-bottom: 0.5px solid transparent;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CustomRadio {
+  color: #626a6b;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 0.1px solid transparent;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CustomRadio label {
+  margin-left: 15px;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CustomRadio label:hover {
+  cursor: pointer;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .CustomRadio:hover {
+  color: #626a6b;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 0.1px solid #efeff0;
+  background-color: #fafafa;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .requirementSubmitbtn {
+  display: block;
+  text-align: right;
+}
+
+.SubmitRequirementsWrapper .MainContent .CardDetails .card .card-body .RequirementForm .requirementSubmitbtn button {
+  background-color: #1dbf73;
+  color: #fff;
+  border: 1px solid #1dbf73;
+  padding: 11px 25px;
+  font-weight: 700;
+}
+
+.SubmitRequirementsWrapper .MainContent .RemPayment {
+  font-weight: 700;
+  padding: 10px 0;
+  color: #404145;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers.dashed {
+  border: 1px dashed #dbd9d9;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers.dashed:hover {
+  border: 1px dashed #0e30c7;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers.dark {
+  border: 1px solid #3a3939;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers.solid {
+  border: 1px solid #dad8d8;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers {
+  height: 147px;
+  margin-right: 15px;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 34px;
+  width: 100%;
+  padding: 30px 15px;
+  text-align: center;
+  background: #fff;
+  border: 1px dashed #dbd9d9;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers .req-title-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers .requiremnt-max-size {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers label {
+  margin-top: 10px;
+  cursor: pointer;
+  border: 0.5px solid #00a859;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #00a859;
+  padding: 7px 14px;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers .text-container {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: gray;
+  line-height: 16px;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers .text-container .file-names .text-contain {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.SubmitRequirementsWrapper .MainContent .upload-containers .text-container .fa-check-circle {
+  color: #50c074;
+  font-size: 54px;
+  text-align: center;
+  display: block;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer {
+  margin: 16px auto;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  border-color: #f4f4f4 #e4e5e7;
+  border-style: solid;
+  border-width: 1px;
+  width: 377px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop {
+  background-color: #fafafa;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e4e5e7;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideMain .imgBox {
+  width: 100px;
+  max-height: 62px;
+  margin-right: 15px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideMain .imgBox img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideMain .sideHeadingText {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideMain .sideHeadingText p {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #62646a;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideSec {
+  color: #62646a;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideSec .checkIcon {
+  margin-right: 15px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideSec .checkIcon.active {
+  color: #1dbf73;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideTop .AsideSec .AsideSecPrice {
+  padding: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #62646a;
+  font-weight: 500;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideMiddile {
+  padding: 16px 24px;
+  color: #62646a;
+  border-bottom: 1px solid #e4e5e7;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton {
+  color: #62646a;
+  padding: 16px 24px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .badge {
+  color: #fff;
+  padding: 5px 15px 0 15px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .serviceFee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .serviceFee p {
+  margin-bottom: 0;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .textBold {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .ConfirmSection {
+  text-align: center;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .ConfirmSection button {
+  background: #1dbf73;
+  background-color: #1dbf73;
+  border: 1px solid #1dbf73;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .ConfirmSection span {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0.8;
+}
+
+.SubmitRequirementsWrapper .OrdersDetail .OrderDetailsContainer .AsideButton .ConfirmSection span svg {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=Styles.css.map */

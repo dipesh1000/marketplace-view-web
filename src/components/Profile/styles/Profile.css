@@ -1,0 +1,262 @@
+.profile-wrapper {
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.profile-wrapper .profile-layout {
+  padding: 30px 0;
+}
+
+.profile-wrapper .profile-layout .profile-Info {
+  border: 1px solid #ddd;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.profile-wrapper .profile-layout .profile-Info h6 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.profile-wrapper .profile-layout .profile-Info button {
+  width: 100%;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #62646a;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-details .detail-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-details .detail-level span {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-details p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-image {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-image img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-image span {
+  position: absolute;
+  top: 24px;
+  margin-left: 25px;
+  border: 1px solid #1dbf73;
+  padding: 0 6px;
+  color: #1dbf73;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.profile-wrapper .profile-layout .profile-Info .profile-image span svg {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-wrapper .profile-layout .meta-content {
+  border: 1px solid #ddd;
+  padding: 30px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-head h5 {
+  font-size: 16px;
+  color: #0e0e0f;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-head a {
+  color: #00698c;
+  font-size: 15px;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-head a:hover {
+  color: #00698c !important;
+  text-decoration: underline !important;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body {
+  color: #62646a;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .meta-descript {
+  overflow-wrap: anywhere;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-level .level-text {
+  margin-bottom: 0;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-level span {
+  margin-left: 10px;
+  color: #b2b2b2;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .baseLevel {
+  margin-bottom: 20px;
+  color: #b2b2b2;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .conent-item {
+  color: #00698c !important;
+  border: none;
+  padding: 7px 0;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .conent-item svg {
+  font-size: 13px;
+  margin-right: 15px;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .conent-item:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-skills {
+  color: #555;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-skills a {
+  border-radius: 15px;
+  display: inline-block;
+  position: relative;
+  min-width: 40px;
+  text-align: center;
+  padding: 5px 12px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #e5e5e5;
+  color: #555;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-skills a:hover {
+  background: #f4f4f4;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-suggestion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-suggestion a {
+  background-color: #fafafa;
+  color: #777;
+  padding: 6px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 2px 5px;
+}
+
+.profile-wrapper .profile-layout .meta-content .meta-content-body .content-suggestion a:hover {
+  border: 1px solid #e5e5e5;
+}
+
+.profile-wrapper .main-contain .notation-box {
+  border: 1px solid #ddd;
+  padding: 20px 24px;
+  background-color: #fff;
+  color: #62646a;
+}
+
+.profile-wrapper .main-contain .box-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-wrapper .main-contain .box-layout p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.profile-wrapper .main-contain .box-layout button {
+  border: 1px solid #1dbf73;
+  background-color: #1dbf73;
+  font-size: 13px;
+  font-weight: 700;
+  -webkit-transition: color .2s,background-color .2s,border .2s,-webkit-box-shadow .2s;
+  transition: color .2s,background-color .2s,border .2s,-webkit-box-shadow .2s;
+  transition: color .2s,background-color .2s,box-shadow .2s,border .2s;
+  transition: color .2s,background-color .2s,box-shadow .2s,border .2s,-webkit-box-shadow .2s;
+}
+
+.profile-wrapper .main-contain .box-layout button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.profile-wrapper .main-contain .box-layout button:active {
+  border: 1px solid #1dbf73;
+  background-color: #1dbf73;
+}
+
+.profile-wrapper #Footer_footer__1w0lV {
+  padding: 0 0px 34px 0px;
+  background: #fff;
+}
+/*# sourceMappingURL=Profile.css.map */

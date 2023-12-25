@@ -1,0 +1,75 @@
+/* fornt-signup css */
+
+.fornt-signup{
+    padding: 60px 0px;
+}
+.fornt-signup .box-wrapper{
+    height: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    position:relative;
+    padding: 100px;
+    background-color: #4a121d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.fornt-signup .box-wrapper .image{
+    display: block;
+}
+.fornt-signup .box-wrapper .image img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.fornt-signup .box-wrapper .text{
+    z-index: 5;
+    position: relative;
+}
+.fornt-signup .box-wrapper .text h2{
+    color: #FFF;
+    font-size: 33px;
+    font-weight: 900!important;
+    line-height: 41px;
+    margin-bottom: 30px!important;
+    display: block;
+}
+.fornt-signup .box-wrapper .text h2 span{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+}
+.fornt-signup .box-wrapper .text a.button-signup{
+    color: #FFF;
+    background-color: #1dbf73;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+@media only screen and (max-width: 768px){
+    .fornt-signup .box-wrapper .image{
+    display: none;
+    }
+
+    .fornt-signup .box-wrapper{
+        padding: 20px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .fornt-signup .box-wrapper .text{
+    width: 400px;
+    }
+}

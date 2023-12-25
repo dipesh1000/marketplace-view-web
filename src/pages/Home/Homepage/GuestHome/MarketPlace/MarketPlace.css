@@ -1,0 +1,81 @@
+.explore-market{
+    padding: 60px 0;
+}
+.explore-market h2{
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+
+.explore-market ul.categories-list{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.explore-market ul.categories-list li{
+    width: 20%;
+    padding-bottom: 60px;
+}
+
+.explore-market ul.categories-list li a{
+    display: block;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #62646a;
+}
+
+.explore-market ul.categories-list li a::after{
+    content: '';    
+    position: absolute;
+    top: 55px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    width: 50px;
+    height: 2px;
+    background-color: #62646a;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+    background-position: left top;
+
+}
+
+.explore-market ul.categories-list li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.explore-market ul.categories-list li a:hover::after{
+    background-color: #1dbf73;
+    width: 50%;
+}
+
+.explore-market ul.categories-list li a img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0  auto 15px;
+}
+
+@media only screen and (max-width: 886px){
+    .explore-market ul.categories-list li{
+    width: 33.33%;
+    padding-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 596px){
+    .explore-market ul.categories-list li{
+    width: 50%;
+    padding-bottom: 60px;
+    }
+}

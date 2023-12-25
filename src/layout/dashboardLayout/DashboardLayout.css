@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Be+Vietnam:100,100italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam", sans-serif;
+}
+
+.margin-escape {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tab__wrapper .nav{
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+.tab__wrapper .nav .nav-item .nav-link {
+  color: #000;
+  color: #000;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tab__wrapper .nav .nav-link.active::after {
+  width: 15px;
+  height: 15px;
+  left: 40%;
+  border: 1px solid;
+  transform: rotate(45deg);
+  bottom: -18px;
+  background: #F4F4F4;
+  border-color: #ddd transparent transparent #ddd;
+  position: absolute;
+  content: "";
+}
+
+@media screen and (min-width: 1200px) {
+  .my-container {
+    width: 94%;
+  }
+}

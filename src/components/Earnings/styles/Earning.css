@@ -1,0 +1,294 @@
+.earning-page {
+  min-height: 800px;
+}
+
+.earning-page .gig-header .exp-earning {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.earning-page .gig-header .exp-earning span {
+  font-weight: 800;
+}
+
+.earning-page .earning-body .earning-main-analytic ul {
+  background-color: #fff;
+  border: 1px #e5e5e5 solid;
+  padding: 25px 10px;
+  margin-bottom: 30px;
+  overflow: visible;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: table;
+  width: 100%;
+}
+
+.earning-page .earning-body .earning-main-analytic ul li {
+  display: table-cell;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #303030;
+  text-decoration: none;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: top;
+  border-right: 1px solid #e5e5e5;
+}
+
+.earning-page .earning-body .earning-main-analytic ul li:last-child {
+  border-right: 1px solid transparent;
+}
+
+.earning-page .earning-body .earning-main-analytic ul li p {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  text-align: center;
+  padding: 0 0 15px;
+  min-width: 125px;
+  margin-bottom: 0;
+}
+
+.earning-page .earning-body .earning-main-analytic ul li span a {
+  color: #303030;
+}
+
+.earning-page .earning-body .earning-main-analytic ul li span a:hover {
+  color: #1dbf73 !important;
+}
+
+.earning-page .earning-body .earning-withdraw ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.earning-page .earning-body .earning-withdraw ul span {
+  padding-right: 2px;
+  color: #62646a;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+  min-width: 86px;
+}
+
+.earning-page .earning-body .earning-withdraw ul li {
+  background: #fff;
+  height: 36px;
+  border: 1px solid #b5b6ba;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: none;
+  color: #62646a;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px;
+  vertical-align: middle;
+}
+
+.earning-page .earning-body .earning-withdraw ul li img {
+  width: 25px;
+}
+
+.earning-page .earning-body .earning-withdraw ul li a {
+  padding-left: 10px;
+  color: #62646a;
+}
+
+.earning-page .earning-body .earning-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2em;
+}
+
+.earning-page .earning-body .earning-filter .csvExp {
+  background: transparent;
+  border: none;
+  line-height: 31px;
+  color: #4a73e8;
+}
+
+.earning-page .earning-body .earning-filter ul {
+  margin-bottom: 0;
+}
+
+.earning-page .earning-body .earning-filter ul span {
+  padding: 5px 2px 0 0;
+  color: #62646a;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+  min-width: 86px;
+}
+
+.earning-page .earning-body .earning-filter ul li.fiterEveryThing .dropdown button {
+  width: 179px;
+}
+
+.earning-page .earning-body .earning-filter ul li.filterYear .dropdown button {
+  width: 74px;
+  overflow: hidden;
+}
+
+.earning-page .earning-body .earning-filter ul li.fiterMonths .dropdown button {
+  width: 130px;
+  overflow: hidden;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border: 1px solid #b5b6ba !important;
+  padding: 2px 10px 4px 10px;
+  border-radius: 3px;
+  height: 28px;
+  color: #62646a;
+  border: 1px solid #dddcdc;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown button:hover {
+  color: #1dbf73;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #1dbf73;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown button:active {
+  background: none;
+  outline: none;
+  color: #1dbf73;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown button i {
+  padding-left: 5px;
+  font-size: 18px;
+  color: #b3b2b2;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown .dropdown-item {
+  color: gray;
+  font-size: 12px;
+  padding: 3px 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown .dropdown-item:hover {
+  color: #50c074 !important;
+  background: none !important;
+}
+
+.earning-page .earning-body .earning-filter ul li .dropdown-menu {
+  min-width: 100px;
+}
+
+.earning-table table td {
+  padding: 15px 15px 15px 0;
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.earning-table table td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.earning-table table td:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.earning-table table thead {
+  background: #fff;
+}
+
+.earning-table table thead th {
+  padding-left: 0;
+}
+
+.earning-table table thead th:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.earning-table table thead th:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.earning-table table tbody tr td {
+  text-align: left;
+  -webkit-transition: background-color .1s;
+  transition: background-color .1s;
+}
+
+.earning-table table tbody tr td.earning-date {
+  width: 145px;
+  padding-right: 15px;
+}
+
+.earning-table table tbody tr td.earning-title {
+  white-space: normal;
+  max-width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.earning-table table tbody tr td.earning-title a {
+  padding-left: .3em;
+  color: #555555;
+}
+
+.earning-table table tbody tr td.earning-title a:hover {
+  color: #4a73e8 !important;
+}
+
+.earning-table table tbody tr td.earning-amount {
+  width: 65px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.earning-table table tbody tr td.earning-amount .loss {
+  color: #d10505;
+}
+
+.earning-table table tbody tr td.earning-amount .profit {
+  color: #1dbf73;
+}
+/*# sourceMappingURL=Earning.css.map */

@@ -1,0 +1,92 @@
+.FormInnerContainer {
+    padding: 20px 35px;
+}
+.FormInnerContainer h2 {
+    display: block;
+    padding: 15px 0;
+    font-weight: 900;
+    color: #555555;
+}
+.FormInnerContainer p {
+    font-size: 15px;
+    width: 475px;
+    color: #999;
+    line-height: 23px;
+}
+.FormInnerContainer i {
+    display: block;
+    text-align: right;
+    color: #999;
+}
+.inputStyle {
+    width: 100%;
+    border: .5px solid #e5e5e5;
+    border-radius: 2px;
+    padding: .5em;
+    outline: none;
+}
+.inputError {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+}
+.errors {
+    border: .5px solid #FF6565!important;
+  }
+
+.formLevels {
+    color: #404145;
+    font-size: 18px;
+    font-weight: 600;
+}
+.formLevels b{
+    color: red;
+}
+.formSubLevels{
+    font-size: 13px!important;
+}
+
+.formSubmit {
+    background-color: #1dbf73;
+    border: 1px solid #04bb66;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    padding: .5em 3em;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+}
+.formLevels {
+    color: #777777;
+    font-size: 1em;
+    margin-right: 10px;
+}
+.columns {
+    columns: 3;
+    width: 600px;
+    overflow: hidden;
+    padding: 10px 0 10px 15px;
+}
+.checkbox {
+    color: #777777!important;
+}
+.mainTitle {
+    color: #424242!important;
+    font-size: 17px!important;
+    padding: 40px 0 0 15px;
+    margin-bottom: .1em!important;
+}
+::placeholder {
+    color: #b3b0b0;
+    opacity: 1; /* Firefox */
+    font-weight: 500;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #b3b0b0;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #b3b0b0;
+  }

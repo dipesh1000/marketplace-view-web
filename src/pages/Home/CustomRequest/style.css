@@ -1,0 +1,9 @@
+.custom-request-page{
+  background: #F7F7F7;
+  padding: 30px 0px;  
+}
+.custom-request-page .page-title{
+    font-size: 28px;
+    font-weight: 600;
+    padding:15px 0px;
+  }

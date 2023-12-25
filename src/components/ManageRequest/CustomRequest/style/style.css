@@ -1,0 +1,184 @@
+.custom-request-container {
+  background-color: #fff;
+  margin-right: 45px;
+  margin-top: 15px;
+}
+
+.custom-request-container .title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 30px;
+  padding-top: 15px;
+  color: #3a3939;
+}
+
+.custom-request-container .textarea-wrapper {
+  margin: 0px 30px;
+  border: 1px solid #e0e0e0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 12px;
+}
+
+.custom-request-container .textarea-wrapper .form-group {
+  margin-bottom: 0;
+}
+
+.custom-request-container .textarea-wrapper .custom-text {
+  border: none !important;
+  padding: 0;
+  resize: none;
+  height: 100px;
+}
+
+.custom-request-container .uploaded-files-wrap {
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  margin: 0px 30px;
+  padding: 15px;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.custom-request-container .uploaded-files-wrap .upload-container {
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: 140px;
+  -webkit-box-shadow: 0px 2px 5px #f3f3f3;
+          box-shadow: 0px 2px 5px #f3f3f3;
+  background: #f7f7f7;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.custom-request-container .uploaded-files-wrap .upload-container .fa-check-circle {
+  font-size: 28px;
+  color: #1dbf73;
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+
+.custom-request-container .uploaded-files-wrap .upload-container .delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.custom-request-container .uploaded-files-wrap .upload-container .delete:hover {
+  color: #e71818;
+}
+
+.custom-request-container .uploaded-files-wrap .upload-container .name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 110px;
+}
+
+.custom-request-container .upload-container-file {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 30px;
+}
+
+.custom-request-container .custom-file-upload {
+  margin: 0px 30px;
+  padding: 10px 20px;
+  background: #f1f1f1;
+  color: #5a5a5a;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.custom-request-container .button-wrapper {
+  text-align: right;
+  padding: 8px 18px 18px 18px;
+}
+
+.custom-request-container .button-wrapper button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 600;
+  padding: 8px 26px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.custom-request-container .button-wrapper button:hover {
+  background-color: #43a464;
+}
+
+.custom-request-container .category-wrapper {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 30px 20px 30px;
+}
+
+.custom-request-container .category-wrapper select {
+  padding: 6px;
+  line-height: 2rem;
+  height: 42px;
+}
+
+.custom-request-container .amount-wrapper {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 30px;
+}
+
+.custom-request-container .amount-wrapper input {
+  margin-top: 8px;
+  margin-left: 30px;
+  border-radius: 4px !important;
+}
+
+.custom-request-container .time-wrapper {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 36px;
+}
+
+.custom-request-container .time-wrapper ul {
+  padding: 0px 30px;
+  margin-bottom: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.custom-request-container .time-wrapper ul li {
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  padding: 8px 10px;
+  width: 100%;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+}
+
+.custom-request-container .time-wrapper ul li:hover {
+  background-color: #e6e6e6;
+  color: #313131;
+}
+
+.custom-request-container .time-wrapper ul li.active {
+  background-color: #e6e6e6;
+  color: #313131;
+}
+/*# sourceMappingURL=style.css.map */

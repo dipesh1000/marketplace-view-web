@@ -1,0 +1,15 @@
+.slideWrap {
+    width: 100%;
+    overflow: hidden;
+}
+.slideItem {
+    height: 680px;
+}
+@media only screen and (max-width: 1440px) {
+    .slideItem {
+        height: 680px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center!important;
+    }
+}

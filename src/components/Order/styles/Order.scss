@@ -1,0 +1,45 @@
+.orderHeaderRow {
+    height: 80px;
+    width: 100%;
+    .container {
+        height: 100%;
+        .steps {
+            color: #b5b6ba;
+            .nav-link {
+                &.active {
+                    color: #1dbf73;
+                    .stepLevel {
+                        background-color: #1dbf73; 
+                    }
+                    .stepText {
+                        color: #1dbf73;
+                    }
+                }
+                .stepLevel {
+                    font-size: 16px;
+                    margin-right: 8px;
+                    height: 25px;
+                    display: inline-flex;
+                    width: 25px;
+                    justify-content: center;
+                    background-color: #c5c6c9;
+                    border-radius: 50%;
+                    color: #fff;
+                    text-align: center;
+                }
+                .stepText {
+                    font-weight: 600;
+                    color: #b5b6ba;
+                }
+            }
+            .stepArrow {
+                color: #222325;
+                font-size: 24px;
+                font-weight: 400;
+                margin: 0 16px;            
+            }
+
+        }
+    }
+    
+}

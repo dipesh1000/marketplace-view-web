@@ -1,0 +1,110 @@
+/* get-inspired css */
+
+.get-inspired{
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+.get-inspired .title{
+    display: block;
+    text-align: left;
+
+}
+
+.get-inspired .title h2{
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+
+.get-inspired .box-wrapper{
+    background-color: #FFF;
+    width: 250px;
+    -webkit-box-shadow: 0 0.14px 2.29266px rgb(0 0 0 / 3%), 0 0.37px 4.42626px rgb(0 0 0 / 5%), 0 3px 7px rgb(0 0 0 / 9%);
+    box-shadow: 0 0.14px 2.29266px rgb(0 0 0 / 3%), 0 0.37px 4.42626px rgb(0 0 0 / 5%), 0 3px 7px rgb(0 0 0 / 9%);
+}
+
+.get-inspired .box-wrapper a{
+    display: block;
+
+}
+
+.get-inspired .box-wrapper a:hover{
+    text-decoration: none;
+
+}
+.get-inspired .box-wrapper .image{
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.get-inspired .box-wrapper .image img{
+    width: 100%;
+    height: 237px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+
+
+.get-inspired .box-wrapper .image img:hover{
+    opacity: .85;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.get-inspired .box-wrapper .text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.get-inspired .box-wrapper .text .profile-icon{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.get-inspired .box-wrapper .text .profile-icon img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.get-inspired .box-wrapper .text .info{
+    text-align: left;
+}
+.get-inspired .box-wrapper .text .info h5{
+    font-size: 14px;
+    margin-bottom: 2px;
+    list-style: 24px;
+}
+.get-inspired .box-wrapper .text .info h5 a{
+    color: #000;
+}
+.get-inspired .box-wrapper .text .info span{
+    font-weight: 400;
+    display: block;
+    font-size: 15px;
+    list-style: 24px;
+}
+.get-inspired .box-wrapper .text .info span a{
+    color: #7a7d85;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+
+.get-inspired .slick-slide > div {
+    margin: 0 10px;
+  }
+.get-inspired  .slick-list {
+    margin: 0 -10px;
+  }

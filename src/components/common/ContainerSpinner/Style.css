@@ -1,0 +1,12 @@
+.container-spinner-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* min-height: calc(100vh - 150px); */
+
+}
+.container-spinner-wrap .spinner {
+ color: #1dbf73 !important;
+}

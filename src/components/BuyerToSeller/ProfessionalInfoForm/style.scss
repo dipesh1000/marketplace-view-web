@@ -1,0 +1,245 @@
+.professional-form {
+	.FormInnerContainer {
+		padding: 20px 35px;
+		h2 {
+			display: block;
+			padding: 15px 0;
+			font-weight: 900;
+			color: #555555;
+		}
+		p {
+			font-size: 15px;
+			width: 475px;
+			color: #999;
+			line-height: 23px;
+		}
+		i {
+			display: block;
+			text-align: right;
+			color: #999;
+		}
+		.formLevels {
+			color: #404145;
+			font-size: 18px;
+			font-weight: 500;
+			b {
+				color: red;
+			}
+		}
+	}
+	.inputStyle {
+		width: 100%;
+		border: 0.5px solid #e5e5e5;
+		border-radius: 2px;
+		padding: 0.5em;
+		outline: none;
+	}
+	.inputError {
+		color: red;
+		font-size: 12px;
+		position: absolute;
+	}
+	.errors {
+		border: 0.5px solid #ff6565 !important;
+	}
+
+	.formSubLevels {
+		font-size: 12px;
+	}
+
+	.formSubmit {
+		background-color: #1dbf73;
+		border: 1px solid #04bb66;
+		color: #fff;
+		font-weight: 600;
+		outline: none;
+		padding: 0.5em 3em;
+		border-radius: 3px;
+		display: block;
+		margin-left: auto;
+	}
+	.formLevels {
+		color: #777777;
+		font-size: 1em;
+		margin-right: 10px;
+	}
+	.formInnerLevels {
+		color: #777777;
+		font-size: 0.9em;
+		padding-right: 0 !important;
+	}
+	.columns {
+		columns: 3;
+		width: 600px;
+		overflow: hidden;
+		padding: 10px 0 10px 15px;
+	}
+
+	.mainTitle {
+		color: #424242 !important;
+		font-size: 17px !important;
+		margin-bottom: 0.4em !important;
+	}
+	.selectxl {
+		background-position-x: 325px !important;
+	}
+	.select {
+		position: relative;
+		font-size: 0.88em !important;
+		height: 45px !important;
+		background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+			no-repeat right #ddd;
+		background-size: 10px;
+		opacity: 0.8;
+		-webkit-appearance: none;
+		background-position-x: 94%;
+		border: 0.9px solid #e5e5e5 !important;
+		outline: none;
+	}
+	.selectmd {
+		background-position-x: 220px !important;
+	}
+	.selectsm {
+		background-position-x: 90% !important;
+	}
+	.selectxs {
+		background-position-x: 87% !important;
+	}
+
+	.btnGreen {
+		background: #1dbf73;
+		color: white !important;
+		padding: 0 10px;
+	}
+	.btnGreen:hover {
+		color: white;
+	}
+	.errorInputFiled {
+		position: relative;
+		border: 1px solid red;
+	}
+	.errorMsg {
+		position: absolute;
+		top: 48px;
+		font-weight: 500;
+	}
+
+	.select option:hover {
+		color: #1dbf73 !important;
+	}
+
+	.select:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+	/* .selectGroup {
+    position: relative;
+} */
+
+	.arrowIcon {
+		position: absolute;
+		z-index: 1;
+		right: 25px;
+		top: 13px;
+	}
+
+	.addNewBtn {
+		background: transparent;
+		outline: none;
+		border: 0;
+		font-weight: 600;
+		color: #1dbf73;
+		font-size: 14px;
+	}
+	.removeBtn {
+		background: transparent;
+		outline: none;
+		border: 0;
+		font-size: 14px;
+		margin-top: 5px !important;
+		height: 100%;
+		color: #a4a4a4;
+		position: absolute;
+		left: 0;
+	}
+	.selectorWrapper {
+		border: 0.5px solid #e5e5e5;
+		border-radius: 3px;
+		padding: 0.6em;
+		margin-bottom: 10px;
+		.form-control {
+			height: calc(1.9em + 0.75rem + 2px) !important;
+		}
+		.css-g1d714-ValueContainer {
+			height: calc(1.65em + 0.75rem + 2px) !important;
+		}
+	}
+	.customSellerBorder .form-control {
+		height: calc(1.9em + 0.75rem + 2px) !important;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.RepeaterBtnCancel {
+		color: #b2b2b2;
+		border: 1px solid #ddd;
+		text-align: center;
+		border-radius: 3px;
+		padding: 8px 10px;
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.RepeaterBtnAdd {
+		color: #b2b2b2;
+		border: 1px solid #ddd;
+		text-align: center;
+		border-radius: 3px;
+		padding: 8px 15px;
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.buttonEdu {
+		display: block;
+		text-align: right;
+	}
+	.formSubmit {
+		background-color: #1dbf73;
+		border: 1px solid #04bb66;
+		color: #fff;
+		font-weight: 600;
+		outline: none;
+		padding: 0.5em 3em;
+		border-radius: 3px;
+		display: block;
+		margin-left: auto;
+	}
+	.suggestionTitle {
+		color: #777;
+		font-size: 16px;
+	}
+	.suggestionItem {
+		background: #f4f4f4;
+		color: #777;
+		margin-left: 10px;
+		padding: 0.4em 0.6em;
+		font-size: 14px;
+		border-radius: 2px;
+	}
+	.checkbox-wrap {
+		padding: 0.5em;
+	}
+	::placeholder {
+		color: #b3b0b0;
+		opacity: 1; /* Firefox */
+		font-weight: 500;
+	}
+
+	:-ms-input-placeholder {
+		/* Internet Explorer 10-11 */
+		color: #b3b0b0;
+	}
+
+	::-ms-input-placeholder {
+		/* Microsoft Edge */
+		color: #b3b0b0;
+	}
+}

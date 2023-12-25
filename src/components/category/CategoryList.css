@@ -1,0 +1,212 @@
+.parent-category {
+  padding: 50px 0;
+}
+
+.parent-category .desktop-title {
+  display: block;
+  text-align: center;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+/* .parent-category .desktop-title .tittle-text{
+    
+} */
+.parent-category .desktop-title .tittle-text h1 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 42px;
+}
+
+.parent-category .desktop-title .tittle-text p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #62646a;
+  margin-bottom: 0px;
+}
+
+.parent-category .desktop-title .tittle-text .how-works {
+  padding-top: 15px;
+}
+
+.parent-category .desktop-title .tittle-text .how-works button {
+  background: none;
+  border: none;
+  color: #4a73e8;
+  font-size: 16px;
+}
+
+.parent-category .desktop-title .tittle-text .how-works button i {
+  padding-right: 5px;
+}
+
+.parent-category .desktop-category-list {
+  display: block;
+}
+
+.parent-category .desktop-category-list .cateory-box {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.parent-category .desktop-category-list .cateory-box {
+  display: list-item;
+}
+
+.parent-category .desktop-category-list .cateory-box li {
+  font-size: 16px;
+  padding: 0 16px 12px 0;
+}
+
+.parent-category .desktop-category-list .cateory-box li.current-category {
+  color: #000;
+  font-weight: 500;
+}
+
+.parent-category .desktop-category-list .cateory-box li a {
+  color: #7a7d85;
+}
+
+.parent-category .desktop-category-list .cateory-box li a:hover {
+  text-decoration: underline;
+}
+
+.parent-category .category-box-wrapper {
+  margin-bottom: 30px;
+}
+
+.parent-category .category-box-wrapper a {
+  display: block;
+}
+
+.parent-category .category-box-wrapper .image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.parent-category .category-box-wrapper:hover .image img {
+  opacity: 0.85;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.parent-category .category-box-wrapper .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.parent-category .category-box-wrapper .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0;
+  color: #222325;
+  font-size: 16px;
+}
+
+/* .parent-category .category-box-wrapper .text .title{
+    
+}
+.parent-category .category-box-wrapper .text .arrow-icon{
+    
+} */
+.full-bg-wapper {
+  background-color: honeydew;
+  text-align: center;
+  color: #62646a;
+  background-color: #f5f5f5;
+  padding: 60px 0;
+  border-bottom: 1px solid #eeecec;
+}
+
+.full-bg-wapper h2 {
+  padding: 5px 0 10px 0;
+  color: #404145;
+}
+
+.full-bg-wapper h2 span {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .parent-category .category-box-wrapper .image {
+    display: none;
+  }
+  .parent-category .desktop-category-list {
+    display: none;
+  }
+  .parent-category .category-box-wrapper {
+    margin-bottom: 0px;
+  }
+  .parent-category .mobile-category-list:first-child {
+    border-top: none;
+  }
+  .parent-category .mobile-category-list {
+    border-top: 1px solid #dadbdd;
+  }
+  .parent-category .category-box-wrapper .text {
+    padding: 15px 0;
+  }
+  .parent-category .desktop-title {
+    min-height: 135px;
+    padding-bottom: 0px;
+    margin: 0 -15px;
+  }
+  .parent-category .desktop-title .tittle-text {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .parent-category .desktop-title .tittle-text h1,
+  .parent-category .desktop-title .tittle-text p {
+    color: #fff;
+  }
+  .parent-category .desktop-title .image {
+    width: 100%;
+    max-height: 400px;
+  }
+  .parent-category .desktop-title .image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .parent-category .desktop-title .tittle-text .how-works {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parent-category .category-box-wrapper .text .arrow-icon {
+    display: none;
+  }
+  .parent-category .desktop-title .image {
+    display: none;
+  }
+}
+/*# sourceMappingURL=CategoryList.css.map */

@@ -1,0 +1,459 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #404145;
+    margin-bottom: 0px;
+}
+@media (min-width: 1240px){
+    .container{
+        max-width: 1400px!important;
+        padding: 0 2em!important;
+    }
+}
+@media (min-width: 1760px){
+    .container{
+        padding: 0!important;
+    }
+}
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1760px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1160px){
+    .container {
+        max-width: 1400px!important;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    } 
+} */
+
+
+
+
+.explore-market{
+    padding: 50px 0;
+}
+.explore-market h2{
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+
+.explore-market ul.categories-list{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.explore-market ul.categories-list li{
+    width: 20%;
+    padding-bottom: 60px;
+}
+
+.explore-market ul.categories-list li a{
+    display: block;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #62646a;
+}
+
+.explore-market ul.categories-list li a::after{
+    content: '';    
+    position: absolute;
+    top: 55px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    width: 50px;
+    height: 2px;
+    background-color: #62646a;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+    background-position: left top;
+
+}
+
+.explore-market ul.categories-list li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.explore-market ul.categories-list li a:hover::after{
+    background-color: #1dbf73;
+    width: 50%;
+}
+
+.explore-market ul.categories-list li a img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0  auto 15px;
+}
+
+@media only screen and (max-width: 886px){
+    .explore-market ul.categories-list li{
+    width: 33.33%;
+    padding-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 596px){
+    .explore-market ul.categories-list li{
+    width: 50%;
+    padding-bottom: 60px;
+    }
+}
+
+
+/* testimonials css */
+
+.testimonial{
+    padding-bottom: 50px;
+}
+
+.testimonial .image{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.testimonial .image img{
+    height: 100%;
+    width: 100%;
+}
+.testimonial .text{
+
+}
+.testimonial .text h4{
+    font-size: 17px;
+    display: block;
+    font-weight: 500;
+    color: #7a7d85;
+    padding-bottom: 10px;
+}
+.testimonial .text h4 span{
+    border-left: 1px solid #c5c6c9;
+    margin-left: 5px;
+}
+.testimonial .text h4 span img{
+    vertical-align: center;
+    height: 38px;
+    padding-left: 5px;
+}
+.testimonial .text blockquote{
+    color: #003912;
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 5px;
+    text-align: left;    
+}
+
+@media only screen and (min-width: 768px){
+    .testimonial .text{
+        padding-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .testimonial .text{
+        padding-top: 30px;
+    }
+}
+
+
+/* get-inspired css */
+
+.get-inspired{
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.get-inspired .title{
+    display: block;
+    text-align: left;
+
+}
+
+.get-inspired .title h2{
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+
+.get-inspired .box-wrapper{
+    background-color: #FFF;
+    width: 300px;
+    -webkit-box-shadow: 0 0.14px 2.29266px rgb(0 0 0 / 3%), 0 0.37px 4.42626px rgb(0 0 0 / 5%), 0 3px 7px rgb(0 0 0 / 9%);
+    box-shadow: 0 0.14px 2.29266px rgb(0 0 0 / 3%), 0 0.37px 4.42626px rgb(0 0 0 / 5%), 0 3px 7px rgb(0 0 0 / 9%);
+}
+
+.get-inspired .box-wrapper a{
+    display: block;
+
+}
+
+.get-inspired .box-wrapper a:hover{
+    text-decoration: none;
+
+}
+.get-inspired .box-wrapper .image{
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.get-inspired .box-wrapper .image img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+
+
+.get-inspired .box-wrapper .image img:hover{
+    opacity: .85;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.get-inspired .box-wrapper .text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.get-inspired .box-wrapper .text .profile-icon{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.get-inspired .box-wrapper .text .profile-icon img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.get-inspired .box-wrapper .text .info{
+    text-align: left;
+}
+.get-inspired .box-wrapper .text .info h5{
+    font-size: 14px;
+    margin-bottom: 2px;
+    list-style: 24px;
+}
+.get-inspired .box-wrapper .text .info h5 a{
+    color: #000;
+}
+.get-inspired .box-wrapper .text .info span{
+    font-weight: 400;
+    display: block;
+    font-size: 15px;
+    list-style: 24px;
+}
+.get-inspired .box-wrapper .text .info span a{
+    color: #7a7d85;
+}
+
+
+/* guides css */
+
+.guides{
+    padding: 50px 0;
+
+}
+
+.guides .title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-bottom: 25px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.guides .title h2{
+    font-size: 28px;
+}
+
+.guides .title a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.guides .title a i{
+font-size: 13px;
+padding-left: 3px;
+}
+
+.guides .box-wrapper{
+width: 100%;
+display: block;
+}
+
+.guides .box-wrapper .image{
+overflow: hidden;
+border-radius: 5px;
+padding-bottom: 15px;
+}
+
+.guides .box-wrapper .image img{
+-o-object-fit: cover;
+   object-fit: cover;
+height: 100%;
+width: 100%;
+}
+
+.guides .box-wrapper .image img:hover{
+    opacity: .85;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.guides .box-wrapper .text{
+
+}
+
+.guides .box-wrapper .text h5{
+font-size: 18px;
+line-height: 22px;
+}
+
+.guides .box-wrapper .text p{
+font-size: 16px;
+font-weight: 400;
+color: #62646a;
+line-height: 22px;
+margin-bottom: 0px;
+text-align: left;
+}
+
+@media only screen and (max-width: 768px){
+.guides .box-wrapper{
+    padding-bottom: 30px;
+ }
+}
+
+/* fornt-signup css */
+
+.fornt-signup{
+    padding: 50px 0;
+}
+.fornt-signup .box-wrapper{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+    position:relative;
+    padding: 100px;
+    background-color: #4a121d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.fornt-signup .box-wrapper .image{
+    display: block;
+}
+.fornt-signup .box-wrapper .image img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.fornt-signup .box-wrapper .text{
+    z-index: 5;
+    position: relative;
+}
+.fornt-signup .box-wrapper .text h2{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 30px;
+    display: block;
+}
+.fornt-signup .box-wrapper .text h2 span{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+}
+.fornt-signup .box-wrapper .text a.button-signup{
+    color: #FFF;
+    background-color: #1dbf73;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+@media only screen and (max-width: 768px){
+    .fornt-signup .box-wrapper .image{
+    display: none;
+    }
+
+    .fornt-signup .box-wrapper{
+        padding: 20px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .fornt-signup .box-wrapper .text{
+    width: 400px;
+    }
+}

@@ -1,0 +1,20 @@
+.forgetpasswordwrapper {
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.forgetPasswordForm {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: max-content;
+		background-color: #fff;
+		width: max-content;
+		padding: 0 10rem 0 0;
+		margin: 0 auto;
+		box-shadow: 1px 1px 5px #ccc;
+	}
+}

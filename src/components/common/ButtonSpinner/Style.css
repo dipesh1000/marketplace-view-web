@@ -1,0 +1,10 @@
+.spinner-wrap {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+}
+.spinner-wrap .spinner {
+  position: absolute;
+  top: -22px;
+  left: -8px;
+}
